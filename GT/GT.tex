@@ -1,4 +1,4 @@
-%%Version 4.0, including the source files,  is published under a 
+%%Version 4.0, including the source files,  is published under a
 %%Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International licence
 %%LaTeX file is very standard, and should work on any modern system.
 %%File encoding is ASCII
@@ -73,13 +73,14 @@
 \begin{document}
 \chapterstyle{daleif2}
 
-\pagestyle{empty}\vspace*{0.5in}
-\centerline{\fontsize{50}{60}\selectfont Group Theory} \vspace{1in}
-\centerline{\fontsize{40}{50}\selectfont J.S. Milne} \vspace{2.0in}
+\pagestyle{empty}\vspace*{0.3in}
+\centerline{\fontsize{40}{50}\selectfont Group Theory} \vspace{0.3in}
+\centerline{\fontsize{30}{40}\selectfont J.S. Milne} \vspace{0.3in}
 
-\hspace*{1.25in} \begin{minipage}{2.5in}
+\hspace*{0.25in} \begin{minipage}{2.5in}
 \includegraphics{S3table.png}
-\end{minipage}
+\end{minipage}\\
+\hspace*{0.25in}
 \begin{minipage}{1in}
 $\begin{array}
 [c]{rcl}%
@@ -93,7 +94,7 @@ $
 \end{minipage}
 
 
-\vspace{1.5in}
+\vspace{0.5in}
 
 \centerline{\begin{minipage}{2.0in}
 \small{Version 4.00\newline June 23, 2021}
@@ -136,7 +137,7 @@ graduate students in mathematics, physics, and related fields.
 
 \noindent v3.16 (July 16, 2020). Revised and expanded; 137 pages.
 
-\noindent v4.00 (June 23, 2021). Made work (including source code) available 
+\noindent v4.00 (June 23, 2021). Made work (including source code) available
 under Creative Commons licence.
 \vfill
 
@@ -145,12 +146,12 @@ under Creative Commons licence.
 by Group Explorer. \vfill
 
 \noindent Version 4.0 is published under a Creative Commons
-Attribution-NonCommercial-ShareAlike 4.0 International licence 
+Attribution-NonCommercial-ShareAlike 4.0 International licence
 (CC BY-NC-SA 4.0).
 
 \bigskip
 
-\noindent Licence information: 
+\noindent Licence information:
 \href{https://creativecommons.org/licenses/by-nc-sa/4.0/}{https://creativecommons.org/licenses/by-nc-sa/4.0}
 
 \bigskip
@@ -160,8 +161,8 @@ Attribution-NonCommercial-ShareAlike 4.0 International licence
 
 
 
-\setcounter{page}{2} 
-\clearpage\pagestyle{plain} 
+\setcounter{page}{2}
+\clearpage\pagestyle{plain}
 \vspace*{-0.5in}\tableoc
 
 
@@ -170,7 +171,7 @@ Attribution-NonCommercial-ShareAlike 4.0 International licence
 
 \subsection{Notation.}
 
-We use the standard (Bourbaki) notation: $\mathbb{N}=\{0,1,2,\ldots\}$;
+\sloppy We use the standard (Bourbaki) notation: $\mathbb{N}=\{0,1,2,\ldots\}$;
 $\mathbb{Z}$ is the ring of integers; $\mathbb{Q}{}$ is the field of rational
 numbers; $\mathbb{R}{}$ is the field of real numbers; $\mathbb{C}{}$ is the
 field of complex numbers; $\mathbb{F}_{q}$ is a finite field with $q$
@@ -202,9 +203,11 @@ is required to act as $1$ on a module over the ring.
 [c]{ll}%
 X\subset Y & X\text{ is a subset of }Y\text{ (not necessarily proper);}\\
 X\overset{\df}{=}Y & X\text{ is defined to be }Y\text{, or
-equals }Y\text{ by definition;}\\
+  equals }Y \\
+& \text{ by definition;}\\
 X\approx Y & X\text{ is isomorphic to }Y\text{;}\\
-X\simeq Y & X\text{ and }Y\text{ are canonically isomorphic (or there is a
+X\simeq Y & X\text{ and }Y\text{ are canonically isomorphic (or}\\
+& \text{ there is a
 given or unique isomorphism);}%
 \end{array}
 $
@@ -320,17 +323,17 @@ would be a finite or infinite number of sporadic groups.
 \bigskip\hfill Richard Borcherds, mo38161.
 \end{quote}
 
-\esmall \vfill
+\esmall %\vfill
 
 
-\clearpage
+%\clearpage
 %\renewcommand\subsectionmark{\markright{}}
 \pagestyle{ruled} \makeevenfoot{ruled}{}{}{}{} \makeoddfoot{ruled}{}{}{}{}
 \makeevenhead{ruled}{\thepage}{\scshape \leftmark}{} \makeoddhead{ruled}{}{\rightmark}{\thepage}
 
 \chapter{Basic Definitions and Results}
 
-\setlength{\epigraphwidth}{4in} \setlength{\epigraphrule}{0pt}
+\setlength{\epigraphwidth}{3in} \setlength{\epigraphrule}{0pt}
 \epigraph{\textit{The axioms for a group are short and natural\ldots.
 Yet somehow hidden behind these axioms is the monster simple group,
 a huge and extraordinary mathematical object, which appears to rely
@@ -338,7 +341,7 @@ on numerous bizarre coincidences to exist. The axioms for groups
 give no obvious hint that anything like this exists.}} {Richard Borcherds, in
 \textit{Mathematicians: An Outer View\ldots.}}
 
-\vspace{-1cm}\setlength{\epigraphwidth}{4in} \setlength{\epigraphrule}{0pt}
+\vspace{-1cm}\setlength{\epigraphwidth}{3in} \setlength{\epigraphrule}{0pt}
 \epigraph{\textit{The one thing I would really like to know before I
 die is why the monster group exists.}} {John Conway, in a 2014 interview on
 Numberphile.}
@@ -425,9 +428,11 @@ Note that the expression within each pair of parentheses is well defined
 because of the induction hypotheses. Thus, if $i=j$, (\ref{e3}) equals
 (\ref{e4}). If $i\neq j$, we may suppose $i<j$. Then%
 \begin{align*}
-(a_{1}\cdots a_{i})(a_{i+1}\cdots a_{n})  &  =(a_{1}\cdots a_{i})\left(
+  &(a_{1}\cdots a_{i})(a_{i+1}\cdots a_{n}) \\
+  =&(a_{1}\cdots a_{i})\left(
 (a_{i+1}\cdots a_{j})(a_{j+1}\cdots a_{n})\right) \\
-(a_{1}\cdots a_{j})(a_{j+1}\cdots a_{n})  &  =\left(  (a_{1}\cdots
+ &(a_{1}\cdots a_{j})(a_{j+1}\cdots a_{n})  \\
+  =&\left(  (a_{1}\cdots
 a_{i})(a_{i+1}\cdots a_{j})\right)  (a_{j+1}\cdots a_{n})
 \end{align*}
 and the expressions on the right are equal because of (G1).
@@ -513,9 +518,14 @@ two elements of $\Sym(S)$ to be their composite:
 In other words, $(\alpha\beta)(s)=\alpha(\beta(s))$ for all $s\in S$. For any
 $\alpha,\beta,\gamma\in\Sym(S)$ and $s\in S$,
 \begin{equation}
-\left(  (\alpha\circ\beta)\circ\gamma\right)  (s)=(\alpha\circ\beta
-)(\gamma(s))=\alpha(\beta(\gamma(s)))=\left(  \alpha\circ(\beta\circ
-\gamma)\right)  (s), \label{e11}%
+\begin{aligned}
+  &\left(  (\alpha\circ\beta)\circ\gamma\right)  (s)\\
+  =&(\alpha\circ\beta
+  )(\gamma(s))\\
+  =&\alpha(\beta(\gamma(s)))\\
+  =&\left(  \alpha\circ(\beta\circ
+\gamma)\right)  (s), \end{aligned}
+\label{e11}%
 \end{equation}
 and so associativity holds. The identity map $s\mapsto s$ is an identity
 element for $\Sym(S)$, and inverses exist because we required the elements of
@@ -639,7 +649,7 @@ a_{1}\\
 a_{n}%
 \end{smallmatrix}
 \right)  .$Therefore, (\ref{e8}) becomes the statement that%
-\[
+\begin{align*}
 (a_{1},\ldots,a_{n})\cdot A^{\mathrm{T}}\cdot P\cdot A\cdot\left(
 \begin{smallmatrix}
 b_{1}\\
@@ -652,7 +662,8 @@ b_{1}\\
 \vdots\\
 b_{n}%
 \end{smallmatrix}
-\right)  \text{ for all }\left(
+\right)  \\
+\text{ for all }\left(
 \begin{smallmatrix}
 \vphantom{b}a_{1}\\
 \vdots\\
@@ -665,7 +676,7 @@ b_{1}\\
 b_{n}%
 \end{smallmatrix}
 \right)  \in F^{n}.
-\]
+\end{align*}
 On examining this statement on the standard basis vectors for $F^{n}$, we see
 that it is equivalent to (\ref{e9}).}%
 \begin{equation}
@@ -722,11 +733,12 @@ B\right)  \text{.} \label{e29}%
 Let $\emptyset$ be the empty sequence, i.e., the sequence of elements in $S$
 indexed by the empty set. What should $\prod\emptyset$ be? Clearly, we should
 have%
-\[
+\begin{align*}
 \tstyle\left(  \prod\emptyset\right)  \left(  \prod A\right)  =\prod\left(
-\emptyset\sqcup A\right)  =\prod A=\prod\left(  A\sqcup\emptyset\right)
+\emptyset\sqcup A\right)  =\prod A\\
+=\prod\left(  A\sqcup\emptyset\right)
 =\left(  \prod A\right)  \left(  \prod\emptyset\right)  .
-\]
+\end{align*}
 In other words, $\prod\emptyset$ should be a neutral element. A semigroup with
 a neutral element is called a \emph{monoid}. In a monoid, the product of any
 finite (possibly empty) sequence of elements is well-defined, and (\ref{e29}) holds.
@@ -740,11 +752,12 @@ weaker conditions (existence of a left neutral element and left inverses):
 $a^{\prime}\ast a=e$. To see that these imply (G2) and (G3), let $a\in G$, and
 apply (G3$^{\prime}$) to find $a^{\prime}$ and $a^{\prime\prime}$ such that
 $a^{\prime}\ast a=e$ and $a^{\prime\prime}\ast a^{\prime}=e$. Then%
-\[
+\begin{align*}
 a\ast a^{\prime}=e\ast(a\ast a^{\prime})=(a^{\prime\prime}\ast a^{\prime}%
-)\ast(a\ast a^{\prime})=a^{\prime\prime}\ast\left(  (a^{\prime}\ast a)\ast
+)\ast(a\ast a^{\prime})\\
+=a^{\prime\prime}\ast\left(  (a^{\prime}\ast a)\ast
 a^{\prime}\right)  =a^{\prime\prime}\ast a^{\prime}=e,
-\]
+\end{align*}
 whence (G3), and%
 \[
 a=e\ast a=(a\ast a^{\prime})\ast a=a\ast(a^{\prime}\ast a)=a\ast e,
@@ -958,6 +971,7 @@ s  & =\left\{
 r  & =1\rightarrow2\rightarrow3\rightarrow1
 \end{align*}
 \end{minipage}
+\\
 \begin{minipage}{1.7in}
 \begin{tikzpicture}
 \path (0,0) coordinate (origin);
@@ -1062,7 +1076,7 @@ The subgroup of $\GL_{2}(\mathbb{C})$ generated by $a$ and $b$ is
 \[
 Q=\{e,a,a^{2},a^{3},b,ab,a^{2}b,a^{3}b\}.
 \]
-The group $Q$ can also be described as the subset $\{\pm1,\pm i,\pm j,\pm k\}$
+\sloppy The group $Q$ can also be described as the subset $\{\pm1,\pm i,\pm j,\pm k\}$
 of the quaternion algebra $\mathbb{H}{}$. Recall that%
 \[
 \mathbb{H}{}=\mathbb{R}{}1\oplus\mathbb{R}{}i\oplus\mathbb{R}{}j\oplus
@@ -1632,7 +1646,7 @@ confused with \textquotedblleft direct factor\textquotedblright.}
 Propositions \ref{bd26} and \ref{bd27} show that the normal subgroups are
 exactly the kernels of homomorphisms.
 
-\medskip\noindent\begin{minipage}{3.5in}
+\medskip\noindent\begin{minipage}{3.2in}
 \begin{proposition}\label{bd27m} The map $a\mapsto aN\colon G\rightarrow G/N$ has the
 following universal property: for any homomorphism $\alpha\colon G\rightarrow
 G^{\prime}$ of groups such that $\alpha(N)=\{e\}$, there exists a unique
@@ -1662,11 +1676,12 @@ therefore defines a map
 \bar{\alpha}\colon G/N\rightarrow G^{\prime},\quad\bar{\alpha}(gN)=\alpha(g),
 \]
 and $\bar{\alpha}$ is a homomorphism because%
-\[
+\begin{align*}
 \bar{\alpha}((gN)\cdot(g^{\prime}N))=\bar{\alpha}(gg^{\prime}N)=\alpha
-(gg^{\prime})=\alpha(g)\alpha(g^{\prime})=\bar{\alpha}(gN)\bar{\alpha
+(gg^{\prime})\\
+=\alpha(g)\alpha(g^{\prime})=\bar{\alpha}(gN)\bar{\alpha
 }(g^{\prime}N)\text{.}%
-\]
+\end{align*}
 The uniqueness of $\bar{\alpha}$ follows from the surjectivity of
 $G\rightarrow G/N$.
 \end{proof}
@@ -1960,21 +1975,23 @@ induction on $k$. An induction argument using (\ref{bd25}) shows that
 $H_{1}\cdots H_{k-1}$ is a normal subgroup of $G$. The conditions (a,b,c) hold
 for the subgroups $H_{1},\ldots,H_{k-1}$ of $H_{1}\cdots H_{k-1}$, and so the
 induction hypothesis shows that
-\[
-(h_{1},h_{2},\ldots,h_{k-1})\mapsto h_{1}h_{2}\cdots h_{k-1}\colon H_{1}\times
+\begin{align*}
+(h_{1},h_{2},\ldots,h_{k-1})\mapsto h_{1}h_{2}\cdots h_{k-1}\colon\\
+ H_{1}\times
 H_{2}\times\cdots\times H_{k-1}\rightarrow H_{1}H_{2}\cdots H_{k-1}%
-\]
+\end{align*}
 is an isomorphism. The pair $H_{1}\cdots H_{k-1}$, $H_{k}$ satisfies the
 hypotheses of (\ref{it06}), and so
 \[
 (h,h_{k})\mapsto hh_{k}\colon(H_{1}\cdots H_{k-1})\times H_{k}\rightarrow G
 \]
 is also an isomorphism. The composite of these isomorphisms%
-\[
+\begin{align*}
 H_{1}\times\cdots\times H_{k-1}\times H_{k}%
-\xrightarrow{(h_{1},\ldots ,h_{k})\mapsto (h_{1}\cdots h_{k-1},h_{k})}H_{1}%
+\xrightarrow{(h_{1},\ldots ,h_{k})\mapsto (h_{1}\cdots h_{k-1},h_{k})}\\
+H_{1}%
 \cdots H_{k-1}\times H_{k}\xrightarrow{(h,h_{k})\mapsto hh_{k}}G
-\]
+\end{align*}
 sends $(h_{1},h_{2},\ldots,h_{k})$ to $h_{1}h_{2}\cdots h_{k}.$
 \end{proof}
 
@@ -1990,10 +2007,11 @@ x_{1},\ldots,x_{k}\rangle$ of $M$ generated by the elements $x_{1}%
 A subset $\{x_{1},\ldots,x_{k}\}$ of $M$ is a \emph{basis}%
 \index{basis!for a commutative group}
 for $M$ if it generates $M$ and
-\[
-m_{1}x_{1}+\cdots+m_{k}x_{k}=0,\quad m_{i}\in\mathbb{Z}{}\implies m_{i}%
+\begin{align*}
+m_{1}x_{1}+\cdots+m_{k}x_{k}=0,\quad m_{i}\in\mathbb{Z}{}\implies \\
+m_{i}%
 x_{i}=0\text{ for every }i;
-\]
+\end{align*}
 then%
 \[
 M=\langle x_{1}\rangle\oplus\cdots\oplus\langle x_{k}\rangle.
@@ -2318,11 +2336,12 @@ In particular,
 \vskip-1em If $\chi=\psi$, then $\chi(a)\psi(a^{-1})=1$, and so the sum is
 $|G|$. Otherwise there exists a $b\in G$ such that $\chi(b)\neq\psi(b)$. As
 $a$ runs over $G$, so also does $ab$, and so%
-\[
+\begin{align*}
 \sum\nolimits_{a\in G}\chi(a)\psi(a^{-1})=\sum\nolimits_{a\in G}\chi
-(ab)\psi((ab)^{-1})=\chi(b)\psi(b)^{-1}\sum\nolimits_{a\in G}\chi
+(ab)\psi((ab)^{-1})\\
+=\chi(b)\psi(b)^{-1}\sum\nolimits_{a\in G}\chi
 (a)\psi(a^{-1}).
-\]
+\end{align*}
 Because $\chi(b)\psi(b)^{-1}\neq1$, this implies that $\sum\nolimits_{a\in
 G}\chi(a)\psi(a^{-1})=0$.
 \end{proof}
@@ -2372,7 +2391,7 @@ is $1$ in the ring. This means that $2mnr$ divides $q-1$. As the group
 $\mathbb{F}{}_{q}^{\times}$ has order $q-1$ and is cyclic (see \ref{it20b}),
 there exist elements $u$, $v$, and $w$ of $\mathbb{F}{}_{q}^{\times}$ having
 orders $2m$, $2n$, and $2r$ respectively. Let%
-\[
+\begin{align*}
 a=%
 \begin{pmatrix}
 u & 1\\
@@ -2382,9 +2401,9 @@ u & 1\\
 \begin{pmatrix}
 v & 0\\
 t & v^{-1}%
-\end{pmatrix}
+\end{pmatrix}\\
 \quad\quad\text{(elements of }\SL_{2}(\mathbb{F}{}_{q})\text{)},
-\]
+\end{align*}
 where $t$ has been chosen so that
 \[
 uv+t+u^{-1}v^{-1}=w+w^{-1}.
@@ -6015,7 +6034,7 @@ a_{G}(1)\colon\Aut(F)\rightarrow G$ is an isomorphism of groups (cf.\ sx66588).
 
 \chapter{The Sylow Theorems; Applications}
 
-\setlength{\epigraphwidth}{4in} \setlength{\epigraphrule}{0pt}
+\setlength{\epigraphwidth}{3in} \setlength{\epigraphrule}{0pt}
 \epigraph{\textit{As an undergraduate, I learned the Sylow theorems in my algebra classes but
 could never retain either the statement or proof of these theorems in memory
 except for short periods of time\ldots\ I think the problem was that I was
@@ -7127,7 +7146,7 @@ of $G$.
 \begin{aside}
 \label{ns10a}Not every element of the commutator subgroup of a group is itself
 a commutator, but the smallest groups where this occurs have order $96$. This
-was shown by a computer search through the libraries of small groups. 
+was shown by a computer search through the libraries of small groups.
 In 1951 Ore proved that every element of $A_n$ is a commutator
 when $n\geq 5$ and conjectured that the same is true of all finite
 simple groups. This was proved in 2008. For a discussion of this question,
@@ -10238,7 +10257,7 @@ $S_{8}$ generated by $(1287)(3465)$ and $(1584)(2673)$.
 {
 \bibliographystyle{cbe}
 \bibliography{GTrefs}
-} 
+}
 
 \begin{comment}
 \epigraphhead[40]{\epigraph{If you don't find it in the index,
