@@ -1116,6 +1116,9 @@ For each prime $p$, there is only one group of order $p$, namely $C_{p}$ (see
 commutative groups and $n$ noncommutative groups (up to isomorphism, of
 course).\medskip
 
+\noindent
+\resizebox{3.3in}{!}{%
+\begin{minipage}{5.8in}
 \noindent\renewcommand{\arraystretch}{1.3}
 \begin{tabular}
 [c]{|r|l|l|l|}\hline
@@ -1142,6 +1145,8 @@ $24$ & $3+12\!=\!15$ &
 \texttt{groupprops.subwiki.org/wiki/Groups\_of\_order\_24} & \\\hline
 \end{tabular}
 \medskip\renewcommand{\arraystretch}{1}
+\end{minipage}
+}
 
 \noindent Here $\langle a,b\!\mid\!a^{5}=b^{2}=c^{2}=abc\rangle$ is the group
 with generators $a$ and $b$ and relations $a^{5}=b^{2}=c^{2}=abc$ (see Chapter
@@ -6153,15 +6158,16 @@ divide the number of elements in its orbit, then we can conclude that (for
 such an $A$), $H=\Stab A$ has order $p^{r}$.
 
 The number of elements in $X$ is
-\[
+\begin{align*}
 |X|=
 \begin{pmatrix}
 p^{r}m\\
 p^{r}%
 \end{pmatrix}
-=\frac{(p^{r}m)(p^{r}m-1)\cdots(p^{r}m-i)\cdots(p^{r}m-p^{r}+1)}{p^{r}%
+=\\
+\frac{(p^{r}m)(p^{r}m-1)\cdots(p^{r}m-i)\cdots(p^{r}m-p^{r}+1)}{p^{r}%
 (p^{r}-1)\cdots(p^{r}-i)\cdots(p^{r}-p^{r}+1)}.
-\]
+\end{align*}
 Note that, because $i<p^{r}$, the power of $p$ dividing $p^{r}m-i$ is the
 power of $p$ dividing $i$. The same is true for $p^{r}-i$. Therefore the
 corresponding terms on top and bottom are divisible by the same powers of $p$,
@@ -6288,10 +6294,11 @@ that $s_{p}\equiv1$ (mod $p)$.
 
 Let $P$ be a Sylow $p$-subgroup of $G$. According to (a), $s_{p}$ is the
 number of conjugates of $P$, which equals%
-\[
+\begin{align*}
 (G:N_{G}(P))=\frac{(G:1)}{(N_{G}(P):1)}=\frac{(G:1)}{(N_{G}(P):P)\cdot
-(P:1)}=\frac{m}{(N_{G}(P):P)}.
-\]
+(P:1)}\\
+=\frac{m}{(N_{G}(P):P)}.
+\end{align*}
 This is a factor of $m$.
 
 (c) Let $H$ be a $p$-subgroup of $G$, and let $H$ act on the set $X$ of Sylow
@@ -6879,8 +6886,9 @@ composition series in the diagram, we find that
 \[%
 \begin{array}
 [c]{rclll}%
-\text{Quotients}(G\triangleright G_{1}\triangleright G_{2}\triangleright
-\cdots) & = & \{G/G_{1},G_{1}/G_{2},G_{2}/G_{3},\ldots\} &  &
+&&\text{Quotients}(G\triangleright G_{1}\triangleright G_{2}\triangleright
+\cdots) \\
+& = & \{G/G_{1},G_{1}/G_{2},G_{2}/G_{3},\ldots\} &  &
 \text{(definition)}\\
 & \sim & \{G/G_{1},G_{1}/K_{2},K_{2}/K_{3},\ldots\} &  & \text{(induction)}\\
 & \sim & \{H_{1}/K_{2},G/H_{1},K_{2}/K_{3},\ldots\} &  & \text{(apply
@@ -7151,11 +7159,12 @@ G^{\prime}/G^{\prime}\cap G_{2}\overset{\simeq}{\rightarrow}G^{\prime}%
 G_{2}/G_{2}\subset G_{1}/G_{2}%
 \]
 we see that
-\[
+\begin{align*}
 G_{1}/G_{2}\text{ commutative }\implies G^{\prime}/G^{\prime}\cap G_{2}\text{
-commutative }\implies G^{\prime\prime}\subset G^{\prime}\cap G_{2}\subset
+commutative }\\
+\implies G^{\prime\prime}\subset G^{\prime}\cap G_{2}\subset
 G_{2}.
-\]
+\end{align*}
 Continuing in the fashion, we find that $G^{(i)}\subset G_{i}$ for all $i$,
 and hence $G^{(s)}=1$.
 \end{proof}
@@ -7257,10 +7266,11 @@ If $n$ is not a power of $2$, then $D_{n}$ is not nilpotent (use Theorem
 $Z(H)\supset Z(G)\cap H$. Assume (inductively) that $Z^{i}(H)\supset
 Z^{i}(G)\cap H$; then $Z^{i+1}(H)\supset Z^{i+1}(G)\cap H$, because (for $h\in
 H$)
-\[
-h\in Z^{i+1}(G)\implies[h,x]\in Z^{i}(G)\text{ all }x\in G\implies[h,x]\in
+\begin{align*}
+h\in Z^{i+1}(G)\implies[h,x]\in Z^{i}(G)\text{ all }x\in G\\
+\implies[h,x]\in
 Z^{i}(H)\text{ all }x\in H.
-\]
+\end{align*}
 
 
 (b) Straightforward.
@@ -7293,23 +7303,29 @@ for all $g_{1},...,g_{m+1}\in G.$
 
 Assume $G$ is nilpotent of class $\leq m$; then
 \begin{align*}
-G=Z^{m}(G)  &  \implies\lbrack g_{1},g_{2}]\in Z^{m-1}(G)\text{ all }%
+&G=Z^{m}(G)  \\
+&  \implies\lbrack g_{1},g_{2}]\in Z^{m-1}(G)\text{ all }%
 g_{1},g_{2}\in G\\
 &  \implies\lbrack\lbrack g_{1},g_{2}],g_{3}]\in Z^{m-2}(G)\text{ all }%
 g_{1},g_{2},g_{3}\in G\\
 &  \cdots\cdots\\
 &  \implies\lbrack\cdots\lbrack\lbrack g_{1},g_{2}],g_{3}],...,g_{m}]\in
-Z(G)\text{ all }g_{1},\ldots,g_{m}\in G\\
+Z(G)\\
+& \qquad \qquad \text{ all }g_{1},\ldots,g_{m}\in G\\
 &  \implies\lbrack\cdots\lbrack\lbrack g_{1},g_{2}],g_{3}],\ldots
-,g_{m+1}]=1\text{ all }g_{1},\ldots,g_{m}\in G.
+,g_{m+1}]=1\\
+& \qquad \qquad \text{ all }g_{1},\ldots,g_{m}\in G.
 \end{align*}
 For the converse, let $g_{1}\in G$. Then
 \begin{align*}
-\lbrack\lbrack...[[g_{1},g_{2}],g_{3}],  &  ...,g_{m}],g_{m+1}]= 1\text{ for
+&\lbrack\lbrack...[[g_{1},g_{2}],g_{3}],  ...,g_{m}],g_{m+1}]= 1\\
+& \qquad \text{ for
 all }g_{1},g_{2},...,g_{m+1}\in G\\
-&  \implies\lbrack...[[g_{1},g_{2}],g_{3}],...,g_{m}]\in Z(G),\text{ for all
+&  \implies\lbrack...[[g_{1},g_{2}],g_{3}],...,g_{m}]\in Z(G),\\
+& \qquad \qquad \text{ for all
 }g_{1},...,g_{m}\in G\\
-&  \implies\lbrack...[[g_{1},g_{2}],g_{3}],...,g_{m-1}]\in Z^{2}(G),\text{ for
+&  \implies\lbrack...[[g_{1},g_{2}],g_{3}],...,g_{m-1}]\in Z^{2}(G),\\
+& \qquad \qquad \text{ for
 all }g_{1},...,g_{m-1}\in G\\
 &  \cdots\cdots\\
 &  \implies g_{1}\in Z^{m}(G)\text{ all }g_{1}\in G.
@@ -7329,24 +7345,27 @@ of $G$. In fact, we have the following more precise result.
 
 \begin{corollary}
 \label{ns15}For any subgroup $N$ of the centre of $G$,
-\[
-G/N\text{ nilpotent of class }m\implies G\text{ nilpotent of class }\leq m+1.
-\]
+\begin{align*}
+G/N\text{ nilpotent of class }m\\
+\implies G\text{ nilpotent of class }\leq m+1.
+\end{align*}
 
 \end{corollary}
 
 \begin{proof}
 \vskip-1em Write $\pi$ for the map $G\rightarrow G/N$. Then
-\[
-\pi([...[[g_{1},g_{2}],g_{3}],...,g_{m}],g_{m+1}])=[...[[\pi g_{1},\pi
+\begin{align*}
+\pi([...[[g_{1},g_{2}],g_{3}],...,g_{m}],g_{m+1}])\\
+=[...[[\pi g_{1},\pi
 g_{2}],\pi g_{3}],...,\pi g_{m}],\pi g_{m+1}]=1
-\]
+\end{align*}
 all $g_{1},...,g_{m+1}\in G$. Hence $[...[[g_{1},g_{2}],g_{3}],...,g_{m}],
 g_{m+1}]\in N\subset Z(G)$, and so
-\[
-[...[[g_{1},g_{2}],g_{3}],...,g_{m+1}],g_{m+2}]=1\text{ all }g_{1},...,
+\begin{align*}
+[...[[g_{1},g_{2}],g_{3}],...,g_{m+1}],g_{m+2}]=1\\
+\text{ all }g_{1},...,
 g_{m+2}\in G.
-\]
+\end{align*}
 
 \end{proof}
 
@@ -7671,10 +7690,11 @@ G=G_{1}\times\cdots\times G_{r}\times H_{r+1}\times\cdots\times H_{t}.
 \begin{example}
 \label{ns30}Let $G=\mathbb{F}_{p}\times\mathbb{F}_{p}$, and think of it as a
 two-dimensional vector space over $\mathbb{F}_{p}$. Let
-\[
-G_{1}=\langle(1,0)\rangle,\quad G_{2}=\langle(0,1)\rangle;\quad H_{1}%
+\begin{align*}
+G_{1}=\langle(1,0)\rangle,\quad G_{2}=\langle(0,1)\rangle;\\
+ H_{1}%
 =\langle(1,1)\rangle,\quad H_{2}=\langle(1,-1)\rangle.
-\]
+\end{align*}
 Then $G=G_{1}\times G_{2}$, $G=H_{1}\times H_{2}$, $G=G_{1}\times H_{2}$.
 \end{example}
 
@@ -8011,15 +8031,16 @@ An endomorphism $\pi$ of an $F$-vector space $V$ is called a%
 \emph{projector} if $\pi^{2}=\pi$. The minimal polynomial of a projector $\pi$
 divides $X^{2}-X=X(X-1)$, and so $V$ decomposes into a direct sum of
 eigenspaces,%
-\[
-V=V_{0}(\pi)\oplus V_{1}(\pi)\text{, where }\left\{
+\begin{align*}
+V=V_{0}(\pi)\oplus V_{1}(\pi) \text{, where }\\
+\left\{
 \begin{array}
 [c]{c}%
 V_{0}(\pi)=\{v\in V\mid\pi v=0\}=\Ker(\pi)\\
 V_{1}(\pi)=\{v\in V\mid\pi v=v\}=\im(\pi).
 \end{array}
 \right.
-\]
+\end{align*}
 Conversely, a decomposition $V=V_{0}\oplus V_{1}$ arises from a projector
 $(v_{0},v_{1})\mapsto(0,v_{1})$.
 
@@ -8050,11 +8071,12 @@ v)\right)  \overset{(\ref{e19})}{=}\bar{\pi}(v)
 for any $v\in V$. Thus, $\bar{\pi}$ is a projector, and (\ref{e19}) shows that
 $\im(\bar{\pi})\supset W$, and hence $\im(\bar{\pi})=W$. It remains to show
 that $\bar{\pi}$ is $G$-invariant. For $g_{0}\in V$
-\[
+\begin{align*}
 \bar{\pi}(g_{0}v)=\frac{1}{|G|}\sum_{g\in G}\,g\left(  \pi(g^{-1}%
-g_{0}v)\right)  =g_{0}\frac{1}{|G|}\sum_{g\in G}\,(g_{0}^{-1}g)\left(
+g_{0}v)\right)  \\
+=g_{0}\frac{1}{|G|}\sum_{g\in G}\,(g_{0}^{-1}g)\left(
 \pi(g^{-1}g_{0}v)\right)  ,
-\]
+\end{align*}
 which equals $g_{0}\bar{\pi}\left(  v\right)  $ because, as $g$ runs over $G$,
 so also does $g_{0}^{-1}g$.
 
@@ -8662,7 +8684,7 @@ we denote $\alpha_{ij}$. Thus, $\alpha$ defines an $m\times n$ matrix whose
 $ij$th coefficient is an $A$-linear map $M_{j}\rightarrow N_{i}$. Conversely,
 every such matrix $(\alpha_{ij})$ defines an $A$-linear map $M\rightarrow N$,
 namely,%
-\[%
+\begin{align*}%
 \begin{pmatrix}
 x_{1}\\
 \vdots\\
@@ -8670,7 +8692,7 @@ x_{j}\\
 \vdots\\
 x_{n}%
 \end{pmatrix}
-\mapsto%
+&\mapsto%
 \begin{pmatrix}
 \alpha_{11} & \cdots & \alpha_{1j} & \cdots & \alpha_{1n}\\
 \vdots &  & \vdots &  & \vdots\\
@@ -8684,8 +8706,8 @@ x_{1}\\
 x_{j}\\
 \vdots\\
 x_{n}%
-\end{pmatrix}
-\overset{\df}{=}%
+\end{pmatrix}\\
+&\overset{\df}{=}%
 \begin{pmatrix}
 \alpha_{11}(x_{1})+\cdots+\alpha_{1n}(x_{n})\\
 \vdots\\
@@ -8694,7 +8716,7 @@ x_{n}%
 \alpha_{m1}(x_{1})+\cdots+\alpha_{mn}(x_{n})
 \end{pmatrix}
 .
-\]
+\end{align*}
 Thus, we see%
 \begin{equation}
 \Hom_{A}(M,N)\simeq\left(  \Hom_{A}(M_{j},N_{i})\right)  _{1\leq j\leq
@@ -9116,10 +9138,11 @@ and we showed that the latter is $V^{G}$. Therefore, $\Tr_{V}(\pi_{V}%
 \begin{proof}
 \vskip-1em The group $G$ acts on the space $\Hom_{F}(V,W)$ of $F$-linear maps
 $V\rightarrow W$ by the rule,%
-\[
-(g\varphi)(v)=g(\varphi(g^{-1}v)),\quad g\in G,\quad\varphi\in\Hom_{F}%
+\begin{align*}
+(g\varphi)(v)=g(\varphi(g^{-1}v)),\quad g\in G,\\
+\quad\varphi\in\Hom_{F}%
 (V,W),\quad v\in V,
-\]
+\end{align*}
 and $\Hom_{F}(V,W)^{G}=\Hom_{F[G]}(V,W)$.
 \end{proof}
 
@@ -9172,10 +9195,11 @@ Moreover, when we identify $c\in k$ with the constant function, $A$ becomes a
 $k$-algebra.
 
 \item Show that
-\[
+\begin{align*}
 A\simeq\prod\nolimits_{s\in S}k_{s}\quad\quad\text{(product of copies of
-}k\text{ indexed by the elements of }S\text{)},
-\]
+}k\\
+\text{ indexed by the elements of }S\text{)},
+\end{align*}
 and that the $k_{s}$ are exactly the minimal $k$-subalgebras of $A$. Deduce
 that $\End_{k\text{-alg}}(A)\simeq\Sym(S)$.
 
@@ -9202,11 +9226,12 @@ all $f\in A$.]
 
 \item Show that the following maps are $G$-equivariant%
 \begin{align*}
-e\colon &  k\rightarrow A\quad\quad\text{(trivial representation on }k\text{;
-}r_{A}\text{ on }A)\\
-m\colon &  A\otimes A\rightarrow A\quad\quad\text{(}r_{A}\otimes r_{A}\text{
+e\colon &  k\rightarrow A & \quad\text{(trivial representation on
+}k\text{;}\\
+& & \qquad r_{A}\text{ on }A)\\
+m\colon &  A\otimes A\rightarrow A & \quad\text{(}r_{A}\otimes r_{A}\text{
 on }A\otimes A\text{; }r_{A}\text{ on }A)\\
-\Delta\colon &  A\rightarrow A\otimes A\quad\quad\text{(}r_{A}\text{ on
+\Delta\colon &  A\rightarrow A\otimes A & \quad\text{(}r_{A}\text{ on
 }A\text{; }1\otimes r_{A}\text{ on }A\otimes A).
 \end{align*}
 
@@ -9765,10 +9790,11 @@ $D_{2^{n-2}}$ (see \ref{fg10}).
 (a) A comparison of the presentation $D_{n}=\langle r,s\mid r^{n}%
 ,s^{2},srsr=1\rangle$ with that for $G$ suggests putting $r=ab$ and $s=a$.
 Check (using \ref{fg09}) that there are homomorphisms:
-\[
-D_{n}\rightarrow G,\quad r\mapsto ab,\quad s\mapsto a,\qquad G\rightarrow
+\begin{align*}
+D_{n}\rightarrow G,\quad r\mapsto ab,\quad s\mapsto a,\\
+ G\rightarrow
 D_{n},\quad a\mapsto s,\quad b\mapsto s^{-1}r\text{.}%
-\]
+\end{align*}
 The composites $D_{n}\rightarrow G\rightarrow D_{n}$ and $G\rightarrow
 D_{n}\rightarrow G$ are the both the identity map on generating elements, and
 therefore (\ref{fg09} again) are identity maps. (b) Omit.
@@ -9876,7 +9902,7 @@ a & 0 & 0\\
 \]
 satisfies the conditions (i), (ii), (iii) of (\ref{it13}). For example, for
 (i) (Maple says that)%
-\[%
+\begin{align*}%
 \begin{pmatrix}
 a & 0 & b\\
 0 & a & c\\
@@ -9892,13 +9918,14 @@ a & 0 & b\\
 0 & a & c\\
 0 & 0 & d
 \end{pmatrix}
-^{-1}\allowbreak=\allowbreak%
+^{-1}\allowbreak\\
+=\allowbreak%
 \begin{pmatrix}
 1 & 0 & -\frac{b}{d}+\frac{1}{d}\left(  b+ab\right) \\
 0 & 1 & -\frac{c}{d}+\frac{1}{d}\left(  c+ac\right) \\
 0 & 0 & 1
 \end{pmatrix}
-\]
+\end{align*}
 It is not a direct product of the two groups because it is not commutative.
 
 \bigskip\noindent\textbf{3-6}
@@ -9918,31 +9945,33 @@ has order $p$ in $(C_{p})^{p}$. (e) We have $(n,q)(n,q)=(nn^{-1},qq)=(1,1).$
 
 \bigskip\noindent\textbf{3-8}
 Let $n\cdot q\in Z(G)$. Then%
-\[
+\begin{align*}
 \left.
 \begin{array}
 [c]{ccc}%
 (n\cdot q)(1\cdot q^{\prime}) & = & n\cdot qq^{\prime}\\
 (1\cdot q^{\prime})(n\cdot q) & = & q^{\prime}nq^{\prime-1}\cdot q^{\prime}q
 \end{array}
-\quad\text{all }q^{\prime}\in Q\right\}  \implies%
+\quad\text{all }q^{\prime}\in Q\right\} \\
+ \implies%
 \begin{array}
 [c]{c}%
 n\in C_{N}(Q)\\
 q\in Z(Q)
 \end{array}
-\]
+\end{align*}
 and%
-\[
+\begin{align*}
 \left.
 \begin{array}
 [c]{ccc}%
 (n\cdot q)(n^{\prime}\cdot1) & = & nqn^{\prime}q^{-1}\cdot q\\
 (n^{\prime}\cdot1)(n\cdot q) & = & n^{\prime}n\cdot q
 \end{array}
-\quad n^{\prime}\in N\quad\right\}  \implies n^{-1}n^{\prime}n=qn^{\prime
+\quad n^{\prime}\in N\quad\right\} \\
+ \implies n^{-1}n^{\prime}n=qn^{\prime
 }q^{-1}.
-\]
+\end{align*}
 The converse and the remaining statements are easy.
 
 \bigskip\noindent\textbf{4-1}
@@ -10008,6 +10037,8 @@ of third rows $2^{3}-2^{2}$; whence $(G:1)=7\times6\times4=168$. \noindent(b)
 Let $V=\mathbb{F}_{2}^{3}$. Then $|V|=2^{3}=8$. Each line through the origin
 contains exactly one point $\neq$ origin, and so $|X|=7$. \noindent(c) We make
 a list of possible characteristic and minimal polynomials:
+\resizebox{3.3in}{!}{
+\begin{minipage}{5in}
 \[%
 \begin{array}
 [c]{lllll}
@@ -10021,6 +10052,8 @@ of element in class}\\
 6 & X^{3}+X^{2}+1\text{ (irreducible)} & \text{Same} & 24 & 7
 \end{array}
 \]
+\end{minipage}
+}
 Here size denotes the number of elements in the conjugacy class.
 \noindent\textit{Case 5:\/} Let $\alpha$ be an endomorphism with
 characteristic polynomial $X^{3}+X+1$. Check from its minimal polynomial that
@@ -10065,9 +10098,10 @@ contains all transpositions, and we know $S_{n}$ is generated by transpositions.
 Note that $C_{G}(x)\cap H=C_{H}(x)$, and so $H/C_{H}(x)\approx H\cdot
 C_{G}(x)/C_{G}(x))$. Prove each class has the same number $c$ of elements.
 Then
-\[
-|K|=(G:C_{G}(x))=(G:H\cdot C_{G}(x))(H\cdot C_{G}(x):C_{G}(x))=kc.
-\]
+\begin{align*}
+|K|&=(G:C_{G}(x))\\
+&=(G:H\cdot C_{G}(x))(H\cdot C_{G}(x):C_{G}(x))=kc.
+\end{align*}
 
 \bigskip\noindent\textbf{4-12}
 (a) The first equivalence follows from the preceding problem. For the second,
@@ -10079,6 +10113,8 @@ by $\sigma$ consists of distinct integers, then $\sigma$ commutes only with
 the group generated by the cycles in its cycle decomposition. (b) List of
 conjugacy classes in $S_{7}$, their size, parity, and (when the parity is
 even) whether it splits in $A_{7}$.
+\resizebox{3.3in}{!}{
+\begin{minipage}{5in}
 \[%
 \begin{array}
 [c]{cccccc}
@@ -10101,7 +10137,8 @@ C_{7}(\sigma)\text{ contains}\\
 15 & (12)(34)(567) & 210 & E & N & (12)
 \end{array}
 \]
-
+\end{minipage}
+}
 \bigskip\noindent\textbf{4-13}
 According to GAP, $n=6$, $a\mapsto(13)(26)(45)$, $b\mapsto(12)(34)(56)$.
 
@@ -10143,18 +10180,18 @@ set of implications for (e)).
 b^{3}=1\implies(ab)^{6}=1$.
 
 \item The following two elements are conjugate in $S_{7}$:
-\[%
+\begin{align*}%
 \begin{pmatrix}
 1 & 2 & 3 & 4 & 5 & 6 & 7\\
 3 & 4 & 5 & 6 & 7 & 2 & 1
 \end{pmatrix}
-,\quad%
+,\\%
 \begin{pmatrix}
 1 & 2 & 3 & 4 & 5 & 6 & 7\\
 2 & 3 & 1 & 5 & 6 & 7 & 4
 \end{pmatrix}
 .
-\]
+\end{align*}
 
 
 \item If $G$ and $H$ are finite groups and $G\times A_{594}\approx H\times
