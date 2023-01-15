@@ -1584,10 +1584,11 @@ of a homomorphism $\alpha\colon G\rightarrow G^{\prime}$ is
 \]
 If $\alpha$ is injective, then $\Ker(\alpha)=\{e\}$. Conversely, if
 $\Ker(\alpha)=\{e\}$, then $\alpha$ is injective, because%
-\[
-\alpha(g)=\alpha(g^{\prime})\implies\alpha(g^{-1}g^{\prime})=e\implies
+\begin{align*}
+\alpha(g)=\alpha(g^{\prime})\implies\alpha(g^{-1}g^{\prime})=e\\
+\implies
 g^{-1}g^{\prime}=e\implies g=g^{\prime}\text{.}%
-\]
+\end{align*}
 
 
 \begin{proposition}
@@ -2576,7 +2577,7 @@ words together with this binary operation. Then $SX$ is a monoid, called the
 \index{monoid!free}
 on $X$.\smallskip
 
-\noindent\begin{minipage}{4.0in}
+\noindent\begin{minipage}{3.0in}
 When we identify an element $a$ of $X$ with the word $a$, $X$ becomes a subset
 of $SX$ and generates it (i.e., no proper submonoid of $SX$ contains $X$).
 Moreover, the map $X\rightarrow SX$ has the following universal property: for
@@ -3489,10 +3490,11 @@ and the remaining automorphisms are said to be \emph{outer}.%
 
 
 Note that
-\[
-(gh)x(gh)^{-1}=g(hxh^{-1})g^{-1}\text{, i.e., $i_{gh}(x)=(i_{g}\circ
+\begin{align*}
+(gh)x(gh)^{-1}=g(hxh^{-1})g^{-1}, \\
+\text{i.e., $i_{gh}(x)=(i_{g}\circ
 i_{h})(x)$},
-\]
+\end{align*}
 and so the map $g\mapsto i_{g}\colon G\rightarrow\Aut(G)$ is a homomorphism.
 Its image is denoted by $\text{Inn}(G)$. Its kernel is the centre of $G$,
 \[
@@ -3571,10 +3573,11 @@ $n$. The map $\alpha\mapsto m$ defines an isomorphism
 \Aut(C_{n})\rightarrow(\mathbb{Z}/n\mathbb{Z})^{\times},
 \]
 where
-\[
+\begin{align*}
 (\mathbb{Z}/n\mathbb{Z})^{\times}=\{\text{units in the ring }\mathbb{Z}%
-/n\mathbb{Z}\}=\{m+n\mathbb{Z}\mid\gcd(m,n)=1\}.
-\]
+/n\mathbb{Z}\}\\
+=\{m+n\mathbb{Z}\mid\gcd(m,n)=1\}.
+\end{align*}
 This isomorphism is independent of the choice of a generator $a$ for $G$: if
 $\alpha(a)=a^{m}$, then for any other element $b=a^{i}$ of $G$,
 \[
@@ -3585,11 +3588,12 @@ $\alpha(a)=a^{m}$, then for any other element $b=a^{i}$ of $G$,
 It remains to determine $(\mathbb{Z}/n\mathbb{Z})^{\times}$. If $n=p_{1}%
 ^{r_{1}}\cdots p_{s}^{r_{s}}$ is the factorization of $n$ into a product of
 powers of distinct primes, then%
-\[
+\begin{align*}
 \mathbb{Z}/n\mathbb{Z}\simeq\mathbb{Z}/p_{1}^{r_{1}}\mathbb{Z}\times
-\cdots\times\mathbb{Z}/p_{s}^{r_{s}}\mathbb{Z},\quad m\text{ mod
+\cdots\times\mathbb{Z}/p_{s}^{r_{s}}\mathbb{Z},\quad\\
+ m\text{ mod
 }n\leftrightarrow(m\text{ mod }p^{r_{1}},\ldots)
-\]
+\end{align*}
 by the Chinese remainder theorem. This is an isomorphism of rings, and so%
 \[
 (\mathbb{Z}/n\mathbb{Z})^{\times}\simeq(\mathbb{Z}/p_{1}^{r_{1}}%
@@ -3634,12 +3638,13 @@ to $[m]\in(\mathbb{Z}/n\mathbb{Z}{})^{\times}$ is $a\mapsto a^{m}$.
 
 (b) If $n=p_{1}^{r_{1}}\cdots p_{s}^{r_{s}}$ with the $p_{i}$ distinct primes,
 then%
-\[
+\begin{align*}
 (\mathbb{Z}/n\mathbb{Z})^{\times}\simeq(\mathbb{Z}/p_{1}^{r_{1}}%
 \mathbb{Z})^{\times}\times\cdots\times(\mathbb{Z}/p_{s}^{r_{s}}\mathbb{Z}%
-)^{\times},\quad m\text{ mod }n\leftrightarrow(m\text{ mod }p^{r_{1}}%
+)^{\times},\quad\\
+ m\text{ mod }n\leftrightarrow(m\text{ mod }p^{r_{1}}%
 ,\ldots).
-\]
+\end{align*}
 
 
 (c) For a prime $p$,%
@@ -3842,12 +3847,13 @@ becomes%
 (n,q)(n^{\prime},q^{\prime})=(n\cdot{}^{q}\!n^{\prime},qq^{\prime})\text{.}%
 \]
 Then
-\[
+\begin{align*}
 ((n,q),(n^{\prime},q^{\prime}))(n^{\prime\prime},q^{\prime\prime})=(n\cdot
 {}^{q}n^{\prime}\cdot{}^{qq^{\prime}}n^{\prime\prime},qq^{\prime}%
-q^{\prime\prime})=(n,q)((n^{\prime},q^{\prime})(n^{\prime\prime}%
+q^{\prime\prime})\\
+=(n,q)((n^{\prime},q^{\prime})(n^{\prime\prime}%
 ,q^{\prime\prime}))
-\]
+\end{align*}
 and so the associative law holds. Because $\theta(1)=1$ and $\theta(q)(1)=1$,
 \[
 (1,1)(n,q)=(n,q)=(n,q)(1,1)\text{,}%
@@ -4269,10 +4275,11 @@ the largest of them, the Fischer-Griess monster, is built into the fabric of
 the universe.
 
 As an example of a matrix group, consider
-\[
+\begin{align*}
 \SL_{m}(\mathbb{F}_{q})\overset{\df}{=}\{m\times m\text{
-matrices $A$ with entries in }\mathbb{F}_{q}\text{ such that }\det A=1\}.
-\]
+matrices $A$ with entries in }\mathbb{F}_{q}\\
+\text{ such that }\det A=1\}.
+\end{align*}
 Here $q=p^{n}$, $p$ prime, and $\mathbb{F}_{q}$ is \textquotedblleft
 the\textquotedblright\ field with $q$ elements. This group is not simple if
 $q\neq2$, because the scalar matrices $\text{diag}(\zeta,\ldots,\zeta)$,
@@ -4418,10 +4425,11 @@ $Q$, and let
 C_{N}(Q)=\{n\in N\mid nq=qn\text{ for all }q\in Q\}
 \]
 (centralizer of $Q$ in $N$). Show that%
-\[
-Z(G)=\{n\cdot q\mid n\in C_{N}(Q)\text{, }q\in Z(Q)\text{, }nn^{\prime}%
+\begin{align*}
+Z(G)=\{n\cdot q\mid n\in C_{N}(Q)\text{, }q\in Z(Q)\text{, }\\
+nn^{\prime}%
 n^{-1}=q^{-1}n^{\prime}q\text{ for all }n^{\prime}\in N\}.
-\]
+\end{align*}
 Let $\theta$ be the homomorphism $Q\rightarrow\Aut(N)$ giving the action of
 $Q$ on $N$ (by conjugation). Show that if $N$ is commutative, then%
 \[
@@ -4442,6 +4450,7 @@ following commutative diagram, the blue sequences are exact and the
 homomorphisms $a,b,c$ are normal, then the red sequence exists and is
 exact:\medskip
 
+\resizebox{3.5in}{!}{%
 \begin{tikzpicture}[>=angle 90,scale=2.2,text height=1.5ex, text depth=0.25ex]
 %%First place the nodes
 \node (k-1) at (0,3) {$0$};
@@ -4491,7 +4500,7 @@ exact:\medskip
 (b1) edge node[below] {$f'$} (b2)
 (b2) edge node[below] {$g'$} (b3);
 \end{tikzpicture}
-
+}
 \end{exercise}
 
 \begin{exercise}
@@ -4809,10 +4818,10 @@ is an isomorphism of $G$-sets.
 \begin{proof}
 \vskip-1em It is well-defined because, if $h\in\Stab(x_{0})$, then
 $ghx_{0}=gx_{0}$. It is injective because
-\[
-gx_{0}=g^{\prime}x_{0}\implies g^{-1}g^{\prime}x_{0}=x_{0}\implies
+\begin{align*}
+gx_{0}=g^{\prime}x_{0}\implies g^{-1}g^{\prime}x_{0}=x_{0}\implies\\
 g,g^{\prime}\text{ lie in the same left coset of }\Stab(x_{0}).
-\]
+\end{align*}
 It is surjective because $G$ acts transitively. Finally, it is obviously $G$-equivariant.
 \end{proof}
 
@@ -4850,11 +4859,12 @@ is the largest normal subgroup contained in $\Stab(x_{0})$.
 
 \begin{proof}
 \vskip-1em When
-\[
-\Ker(G\rightarrow\Sym(X))=\bigcap_{x\in X}\Stab(x)=\bigcap_{g\in
+\begin{align*}
+\Ker(G\rightarrow\Sym(X))=\bigcap_{x\in X}\Stab(x)\\
+=\bigcap_{g\in
 G}\Stab(gx_{0})\overset{\text{(\ref{ga04})}}{=}\bigcap g\cdot\Stab(x_{0})\cdot
 g^{-1}.
-\]
+\end{align*}
 Hence, the proposition is a consequence of the following lemma.
 \end{proof}
 
@@ -5177,7 +5187,8 @@ is even (6 intersections). This works, because there is one crossing for each in
 
 For a permutation $\sigma$, consider the products
 \begin{align*}
-V=\prod_{1\leq i<j\leq n}(j-i)  &  =%
+V&=\prod_{1\leq i<j\leq n}(j-i)  \\
+ &=%
 \begin{array}
 [t]{r}%
 (2-1)(3-1)\cdots(n-1)\\
@@ -5186,7 +5197,8 @@ V=\prod_{1\leq i<j\leq n}(j-i)  &  =%
 (n-(n-1))
 \end{array}
 \\
-\sigma V=\prod_{1\leq i<j\leq n}(\sigma(j)-\sigma(i))  &  =%
+\sigma V&=\prod_{1\leq i<j\leq n}(\sigma(j)-\sigma(i))  \\
+  &=%
 \begin{array}
 [t]{r}%
 (\sigma(2)-\sigma(1))(\sigma(3)-\sigma(1))\cdots(\sigma(n)-\sigma(1))\\
@@ -5279,10 +5291,11 @@ if their supports are disjoint. Note that disjoint cycles commute. If
 \text{(disjoint cycles)},
 \]
 then
-\[
+\begin{align*}
 \sigma^{m}=(i_{1}...i_{r})^{m}(j_{1}...j_{s})^{m}\cdots(l_{1}...l_{u}%
-)^{m}\qquad\text{(disjoint cycles)},
-\]
+)^{m}\qquad\\
+\text{(disjoint cycles)},
+\end{align*}
 and it follows that $\sigma$ has order $\text{lcm}(r,s,...,u).$
 
 \begin{proposition}
@@ -5367,7 +5380,9 @@ product of $3$-cycles:
 (ij)(kl)=%
 \begin{cases}
 (ij)(jl)=(ijl) & \text{case }j=k,\\
-(ij)(jk)(jk)(kl)=(ijk)(jkl) & \text{case }i,j,k,l\text{ distinct,}\\
+\begin{aligned}(ij)(jk)(jk)(kl)\\
+  =(ijk)(jkl)
+\end{aligned} & \text{case }i,j,k,l\text{ distinct,}\\
 1 & \text{case }(ij)=(kl).
 \end{cases}
 \]
@@ -5400,9 +5415,10 @@ of $n$, we mean a sequence of integers $n_{1},\ldots,n_{k}$ such that
 &  n_{1}+n_{2}+\cdots+n_{k}=n.
 \end{align*}
 For example, there are exactly $5$ partitions of $4$, namely,%
-\[
-4=1+1+1+1,\quad4=1+1+2,\quad4=1+3,\quad4=2+2,\quad4=4,
-\]
+\begin{align*}
+4=1+1+1+1,\quad4=1+1+2,\quad\\
+4=1+3,\quad4=2+2,\quad4=4,
+\end{align*}
 and $1,121,505$ partitions of $61$. Note that a partition
 \[
 \{1,2,...,n\}=O_{1}\cup...\cup O_{k}\qquad\text{(disjoint union)}%
@@ -5416,10 +5432,10 @@ the orbits of an element $\sigma$ of $S_{n}$ form a partition of
 $\{1,\ldots,n\}$, we can attach to each such $\sigma$ a partition of $n$. For
 example, the partition of $8$ attached to $(15)(27634)(8)$ is $1,2,5$ and the
 partition attached to $n$ attached to
-\[
-\sigma=(i_{1}\ldots i_{n_{1}})\cdots(l_{1}\ldots l_{n_{k}}),\quad
+\begin{align*}
+\sigma=(i_{1}\ldots i_{n_{1}})\cdots(l_{1}\ldots l_{n_{k}}),\\
 \text{(disjoint cycles)}\quad1<n_{i}\leq n_{i+1},
-\]
+\end{align*}
 is $1,1,\ldots,1,n_{1},\ldots,n_{k}\qquad(n-%
 %TCIMACRO{\tsum }%
 %BeginExpansion
@@ -5671,6 +5687,8 @@ By (iii) $c1=1$, and by (ii) applied to $cba$ we have $c5=1$. Therefore,
 according to (i) we must have $5=1$; we drop $5$, and so now $b2=1$. Since
 $b4=1$ we must have $4=2$, and so we can drop $4$ also. What we know can be
 summarized by the table:
+\resizebox{3.3in}{!}{
+\begin{minipage}{4.8in}
 \[%
 \begin{array}
 [c]{ccccccccccccccccccccc}
@@ -5683,8 +5701,12 @@ summarized by the table:
 \mathbf{3} &  & 1 &  & 2 &  & \mathbf{3}%
 \end{array}
 \]
+\end{minipage}
+}
 The bottom right corner, which is forced by (ii), tells us that $c2=3$. Hence
 also $c3=2$, and this then determines the rest of the table:
+\resizebox{3.3in}{!}{
+\begin{minipage}{4.8in}
 \[%
 \begin{array}
 [c]{ccccccccccccccccccccc}
@@ -5697,6 +5719,8 @@ also $c3=2$, and this then determines the rest of the table:
 \mathbf{3} &  & 1 &  & 2 &  & \mathbf{3}%
 \end{array}
 \]
+\end{minipage}
+}
 We find that we have three cosets on which $a,b,c$ act as
 \[
 a=(123)\quad b=(12)\quad c=(23).
