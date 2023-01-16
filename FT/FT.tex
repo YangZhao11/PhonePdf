@@ -1,4 +1,4 @@
-%%Version 5.0, including the source files,  is published under a 
+%%Version 5.0, including the source files,  is published under a
 %%Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International licence
 %%LaTeX file is very standard, and should work on any modern system.
 %%File encoding is ASCII
@@ -7,10 +7,10 @@
 %%as many lines end in %.
 %%Use defnb.tex to change fonts or margins.
 %%The main file GT.tex was written in Scientific Workplace 5.50.
-%%If you own SWP 5.5, you can use it to edit GT.tex; 
+%%If you own SWP 5.5, you can use it to edit GT.tex;
 %%others should ignore the %TCIDATA lines in preamble.
 
-\documentclass[a4paper,11pt,final]{memoir}
+\documentclass[a4paper,11pt,final,openany]{memoir}
 \usepackage{array}
 \usepackage{amsxtra}
 \usepackage[final]{graphicx}
@@ -75,7 +75,9 @@
 \chapterstyle{daleif2}
 
 \pagestyle{empty} \vspace*{0.5in}
-\centerline{\fontsize{40}{50}\selectfont Fields and Galois Theory}
+\begin{center}
+  \fontsize{40}{50}\selectfont Fields and Galois Theory
+\end{center}
 \vspace{1in} \centerline{\fontsize{30}{40}\selectfont J.S. Milne}
 \vspace{2.0in}
 
@@ -92,10 +94,15 @@ edge  node[descr] {$\langle\sigma^2 \rangle$} (m-2-3)
 (m-3-2) edge  node[descr] {$\langle\sigma\rangle/\langle\sigma^3	 \rangle$}(m-2-1)
 edge  node[descr] {$\langle\sigma\rangle/\langle\sigma^2 \rangle$}(m-2-3);
 \end{tikzpicture}
+
 Splitting field of $X^7-1$ over $\mathbb{Q}$.
-\end{minipage}\hspace{0.5in} \begin{minipage}{2.0in}
+\end{minipage}
+
+\vspace{0.5in}
+
+\begin{minipage}{2.5in}
 \begin{tikzpicture}[descr/.style={fill=white}]
-\matrix(m)[matrix of math nodes, row sep=2.5em, column sep=1em,
+\matrix(m)[matrix of math nodes, row sep=3.0em, column sep=1.6em,
 text height=1.5ex, text depth=0.25ex]
 {&\mathbb{Q}[\zeta,\alpha]\\
 \mathbb{Q}[\zeta]&&\mathbb{Q}[\alpha]\\
@@ -106,18 +113,19 @@ edge  node[descr] {$H$} (m-2-3)
 (m-3-2) edge  node[descr] {$G/N$}(m-2-1)
 edge  (m-2-3);
 \end{tikzpicture}
+
 Splitting field of $X^5-2$ over $\mathbb{Q}$.
 \end{minipage}
 
 
-\vspace{2in} 
+\vspace{1in}
 
 \centerline{\begin{minipage}{2.0in}\small{Version 5.00
 \newline June 2021}\end{minipage}}
 
 
 
-\raggedbottom\clearpage\pagenumbering{arabic} 
+\raggedbottom\clearpage\pagenumbering{arabic}
 
 \vspace*{0.1in} \noindent These
 notes give a concise exposition of the theory of fields, including the Galois
@@ -125,6 +133,7 @@ theory of finite and infinite extensions and the theory of transcendental
 extensions. The first six chapters form a standard course, and the final three
 chapters are more advanced.\vfill
 
+\begin{small}
 \begin{verbatim}
 BibTeX information
 @misc{milneFT,
@@ -135,6 +144,7 @@ BibTeX information
   pages={142}
 }
 \end{verbatim}
+\end{small}
 
 \vfill
 
@@ -171,12 +181,12 @@ changed; 138 pages.
 \vfill
 
 \noindent Version 5.0 is published under a Creative Commons
-Attribution-NonCommercial-ShareAlike 4.0 International licence 
+Attribution-NonCommercial-ShareAlike 4.0 International licence
 (CC BY-NC-SA 4.0).
 
 \bigskip
 
-\noindent Licence information: 
+\noindent Licence information:
 \href{https://creativecommons.org/licenses/by-nc-sa/4.0/}{https://creativecommons.org/licenses/by-nc-sa/4.0}
 
 \bigskip
@@ -189,14 +199,15 @@ Attribution-NonCommercial-ShareAlike 4.0 International licence
 
 \section{Notation.}
 
-We use the standard (Bourbaki) notation:
+\sloppy We use the standard (Bourbaki) notation:
 \begin{align*}
 \mathbb{N}  &  =\{0,1,2,\ldots\},\\
 \mathbb{Z}  &  =\text{ring of integers,}\\
 \mathbb{R}{}  &  =\text{field of real numbers,}\\
 \mathbb{C}{}  &  =\text{field of complex numbers,}\\
 \mathbb{F}_{p}  &  =\mathbb{Z}{}/p\mathbb{Z}{}=\text{field with }p\text{
-elements, }p\text{ a prime number.}%
+  elements, }\\
+& \qquad p\text{ a prime number.}%
 \end{align*}
 Given an equivalence relation, $[\ast]$ denotes the equivalence class
 containing $\ast$. The cardinality of a set $S$ is denoted by $\left\vert
@@ -209,12 +220,16 @@ $p=2,3,5,7,11,\ldots$.
 $%
 \begin{array}
 [c]{ll}%
-X\subset Y & X\text{ is a subset of }Y\text{ (not necessarily proper).}\\
-X\overset{\df}{=}Y & X\text{ is defined to be }Y\text{, or
+X\subset Y & X\text{ is a subset of }Y\\
+ & \text{ (not necessarily proper).}\\
+X\overset{\df}{=}Y & X\text{ is defined to be }Y,\\
+ & \text{ or
 equals }Y\text{ by definition.}\\
 X\approx Y & X\text{ is isomorphic to }Y\text{.}\\
-X\simeq Y & X\text{ and }Y\text{ are canonically isomorphic (or there is a
-given or unique isomorphism).}%
+X\simeq Y & X\text{ and }Y\text{ are canonically isomorphic}\\
+ & \text{(or there is a
+  given or unique }\\
+& \text{isomorphism).}%
 \end{array}
 $
 
@@ -302,10 +317,11 @@ structure of a ring from that on $R$.
 A \emph{homomorphism of rings}%
 \index{homomorphism!of rings}
 $\alpha\colon R\rightarrow R^{\prime}$ is a map such that
-\[
-\alpha(a+b)=\alpha(a)+\alpha(b),\quad\alpha(ab)=\alpha(a)\alpha(b),\quad
-\alpha(1_{R})=1_{R^{\prime}}%
-\]
+\begin{align*}
+\alpha(a+b)&=\alpha(a)+\alpha(b),\\
+\alpha(ab)&=\alpha(a)\alpha(b),\\
+\alpha(1_{R})&=1_{R^{\prime}}%
+\end{align*}
 
 
 \noindent for all $a,b\in R$. A ring $R$ is said to be \emph{commutative}%
@@ -403,10 +419,11 @@ is a homomorphism of rings such that $\alpha(c)=c$ for every $c\in F$.
 \section{The characteristic of a field}
 
 One checks easily that the map
-\[
-\mathbb{Z}\rightarrow F,\quad n\mapsto n\cdot1_{F}\overset{\textup{{\tiny def}%
+\begin{align*}
+  \mathbb{Z}&\rightarrow F,\\
+  n&\mapsto n\cdot1_{F}\overset{\textup{{\tiny def}%
 }}{=}1_{F}+1_{F}+\cdots+1_{F}\quad(n\text{ copies of }1_{F}),
-\]
+\end{align*}
 is a homomorphism of rings. For example,%
 \[
 (\underbrace{1_{F}+\cdots+1_{F}}_{m})+(\underbrace{1_{F}+\cdots+1_{F}}%
@@ -564,9 +581,10 @@ Exercise \ref{x3}).
 \index{algorithm!Euclid's}
 Let $f(X)$, $g(X)\in F[X]$. Euclid's algorithm constructs polynomials $a(X)$,
 $b(X)$, and $d(X)$ such that
-\[
-a(X)\cdot f(X)+b(X)\cdot g(X)=d(X),\quad\deg(a)<\deg(g),\quad\deg(b)<\deg(f)
-\]
+\begin{align*}
+a(X)\cdot f(X)+b(X)\cdot g(X)=d(X),\\
+\deg(a)<\deg(g),\quad\deg(b)<\deg(f)
+\end{align*}
 and $d(X)=\gcd(f,g)$.
 
 Recall how it goes. We may assume that $\deg(f)\geq\deg(g)$ since the argument
@@ -582,9 +600,11 @@ r_{n-1}  &  =q_{n+1}r_{n}%
 \end{align*}
 with $r_{n}$ the last nonzero remainder. Then, $r_{n}$ divides $r_{n-1}$,
 hence $r_{n-2}$,\ldots, hence $g$, and hence $f$. Moreover,
-\[
-r_{n}=r_{n-2}-q_{n}r_{n-1}=r_{n-2}-q_{n}(r_{n-3}-q_{n-1}r_{n-2})=\cdots=af+bg
-\]
+\begin{align*}
+r_{n}&=r_{n-2}-q_{n}r_{n-1}\\
+&=r_{n-2}-q_{n}(r_{n-3}-q_{n-1}r_{n-2})\\
+&=\cdots=af+bg
+\end{align*}
 and so every common divisor of $f$ and $g$ divides $r_{n}$: we have shown
 $r_{n}=\gcd(f,g)$.
 
@@ -729,10 +749,11 @@ suppose that there is a prime $p$ such that:
 \begin{proof}
 If $f(X)$ factors nontrivially in $\mathbb{Q}[X]$, then it factors
 nontrivially in $\mathbb{Z}[X]$, say,
-\[
-a_{m}X^{m}+a_{m-1}X^{m-1}+\cdots+a_{0}=(b_{r}X^{r}+\cdots+b_{0})(c_{s}%
+\begin{align*}
+  &a_{m}X^{m}+a_{m-1}X^{m-1}+\cdots+a_{0}\\
+  =&(b_{r}X^{r}+\cdots+b_{0})(c_{s}%
 X^{s}+\cdots+c_{0})
-\]
+\end{align*}
 with $b_{i},c_{i}\in\mathbb{Z}$ and $r,s<m$. Since $p$, but not $p^{2}$,
 divides $a_{0}=b_{0}c_{0}$, $p$ must divide exactly one of $b_{0}$, $c_{0}$,
 say, $b_{0}$. Now from the equation
@@ -1146,11 +1167,11 @@ $X^{3}-3X-1$ is irreducible,
 \gcd(X^{3}-3X-1,3X^{2}+7X+5)=1.
 \]
 In fact, Euclid's algorithm gives
-\[
-\textstyle(X^{3}-3X-1)\left(  \frac{-7}{37}X+\frac{29}{111}\right)
-+(3X^{2}+7X+5)\left(  \frac{7}{111}X^{2}-\frac{26}{111}X+\frac{28}%
+\begin{align*}
+&\textstyle(X^{3}-3X-1)\left(  \frac{-7}{37}X+\frac{29}{111}\right)\\
++&(3X^{2}+7X+5)\left(  \frac{7}{111}X^{2}-\frac{26}{111}X+\frac{28}%
 {111}\right)  =1.
-\]
+\end{align*}
 Hence
 \[
 \textstyle(3x^{2}+7x+5)\left(  \frac{7}{111}x^{2}-\frac{26}{111}x+\frac
@@ -1342,10 +1363,10 @@ contains $\alpha^{-1}$.
 X^{m}+a_{m-1}X^{m-1}+\cdots+a_{0}\in E[X].
 \]
 Each of the extensions
-\[
-F[a_{0},\ldots,a_{m-1},\alpha]\supset F[a_{0},\ldots,a_{m-1}]\supset
+\begin{align*}
+F[a_{0},\ldots,a_{m-1},\alpha]\supset F[a_{0},\ldots,a_{m-1}]\supset\\
 F[a_{0},\ldots,a_{m-2}]\supset\cdots\supset F
-\]
+\end{align*}
 is generated by a single algebraic element, and so is finite. Therefore
 $F[a_{0},\ldots,a_{m-1},\alpha]$ is finite over $F$ (see \ref{ef10}), which
 implies that $\alpha$ is algebraic over $F$.
@@ -1456,11 +1477,12 @@ f(X)=\prod_{i=1}^{d}(X-\alpha_{i}),\quad\alpha_{i}\in\mathbb{C},\quad
 \alpha_{1}=\alpha,
 \]
 and so
-\[
+\begin{align*}
 |x_{N}|=\prod_{i=1}^{d}|\Sigma_{N}-\alpha_{i}|\leq|\Sigma_{N}-\alpha
-_{1}|(\Sigma_{N}+M)^{d-1},\quad\text{where }M=\max_{i\neq1}\{1,|\alpha
+_{1}|(\Sigma_{N}+M)^{d-1},\\
+\text{where }M=\max_{i\neq1}\{1,|\alpha
 _{i}|\}\text{.}%
-\]
+\end{align*}
 But
 \[
 |\Sigma_{N}-\alpha_{1}|=\sum_{n=N+1}^{\infty}\frac{1}{2^{n!}}\leq\frac
@@ -1577,10 +1599,11 @@ details, see Artin, M., Algebra, 1991, Chapter 13, Section 4.)
 
 \item A number $\alpha$ is constructible if and only if it is contained in a
 subfield of $\mathbb{R}{}$ of the form
-\[
+\begin{align*}
 \mathbb{Q}{}[\sqrt{a_{1}},\ldots,\sqrt{a_{r}}],\quad a_{i}\in\mathbb{Q}%
-{}[\sqrt{a_{1}},\ldots,\sqrt{a_{i-1}}],\quad a_{i}>0\text{.}%
-\]
+{}[\sqrt{a_{1}},\ldots,\sqrt{a_{i-1}}],\\
+ a_{i}>0\text{.}%
+\end{align*}
 
 \end{enumerate}
 \end{theorem}
@@ -1735,11 +1758,12 @@ $\cos\frac{2\pi}{17}=-\frac{1}{16}+\frac{1}{16}\sqrt{17}+\frac{1}{16}%
 }-\sqrt{170-26\sqrt{17}}}$
 \par
 --- both expressions are correct.}
-\[
+\begin{align*}
 \cos\frac{2\pi}{17}=-\frac{1}{16}+\frac{1}{16}\sqrt{17}+\frac{1}{16}%
-\sqrt{34-2\sqrt{17}}+\frac{1}{8}\sqrt{17+3\sqrt{17}-\sqrt{34-2\sqrt{17}%
+\sqrt{34-2\sqrt{17}}\\
++\frac{1}{8}\sqrt{17+3\sqrt{17}-\sqrt{34-2\sqrt{17}%
 }-2\sqrt{34+2\sqrt{17}}}%
-\]
+\end{align*}
 when he was 18 years old. This success encouraged him to become a mathematician.
 
 \section{Algebraically closed fields}
@@ -1882,7 +1906,7 @@ of algebra\textquotedblright. See: Roquette, Peter, In memoriam Ernst Steinitz
 
 \begin{exercise}
 \label{x1} Let $E={\mathbb{Q}}[\alpha]$, where $\alpha^{3}-\alpha^{2}%
-+\alpha+2=0$. Express $(\alpha^{2}+\alpha+1)(\alpha^{2}-\alpha)$ and\linebreak 
++\alpha+2=0$. Express $(\alpha^{2}+\alpha+1)(\alpha^{2}-\alpha)$ and\linebreak
 $(\alpha-1)^{-1}$ in the form $a\alpha^{2}+b\alpha+c$ with $a,b,c\in
 {\mathbb{Q}}$.
 \end{exercise}
@@ -4482,8 +4506,8 @@ that $\sigma_{T}$ leaves $\bar{f}_{1}(X,T)_{1}$ invariant. Clearly $G_{\bar
 {f}}\subset G_{f}$.
 
 \begin{aside} For a monic polynomial $f$ of degree $n$ with bounded integers
-as coefficients, it is expected that the Galois group of $f$ equals $S_n$ 
-with probability $1$ as $n\rightarrow\infty$. See 
+as coefficients, it is expected that the Galois group of $f$ equals $S_n$
+with probability $1$ as $n\rightarrow\infty$. See
 Bary-Soroker, Kozma, and Gady, Duke Math. J. 169 (2020), 579--598,
 for precise statements.
 \end{aside}
