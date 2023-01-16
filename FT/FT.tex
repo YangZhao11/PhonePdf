@@ -1996,20 +1996,23 @@ extension of $F$.
 $\varphi\colon F(\alpha)\rightarrow\Omega$, $\varphi(\alpha)$ is
 transcendental over $F$, and the map $\varphi\mapsto\varphi(\alpha)$ defines a
 one-to-one correspondence
-\[
-\{F\text{-homomorphisms }F(\alpha)\rightarrow\Omega\}\leftrightarrow
+\begin{gather*}
+\{F\text{-homomorphisms }F(\alpha)\rightarrow\Omega\}\\
+\updownarrow \\
 \{\text{elements of }\Omega\text{ transcendental over }F\}.
-\]
+\end{gather*}
 
 
 \item Let $\alpha$ be algebraic over $F$ with minimal polynomial $f(X)$. For
 every $F$-homomorphism $\varphi\colon F[\alpha]\rightarrow\Omega$,
 $\varphi(\alpha)$ is a root of $f(X)$ in $\Omega$, and the map $\varphi
 \mapsto\varphi(\alpha)$ defines a one-to-one correspondence
-\[
+\begin{gather*}
 \{F\text{-homomorphisms }\varphi\colon F[\alpha]\rightarrow\Omega
-\}\leftrightarrow\{\text{roots of\textrm{\ }}f\text{\ in }\Omega\}.
-\]
+\}\\
+\updownarrow\\
+\{\text{roots of\textrm{\ }}f\text{\ in }\Omega\}.
+\end{gather*}
 In particular, the number of such maps is the number of distinct roots of $f$
 in $\Omega$.
 \end{enumerate}
@@ -2050,20 +2053,24 @@ $\Omega$.
 \begin{enumerate}
 \item If $\alpha$ is transcendental over $F$, then the map $\varphi
 \mapsto\varphi(\alpha)$ defines a one-to-one correspondence
-\[
+\begin{gather*}
 \{\text{extensions }\varphi\colon F(\alpha)\rightarrow\Omega\text{\textrm{\ of
-}}\varphi_{0}\}\leftrightarrow\{\text{elements of }\Omega
+}}\varphi_{0}\}\\
+\updownarrow\\
+\{\text{elements of }\Omega
 \text{\textrm{\ transcendental over }}\varphi_{0}(F)\}.
-\]
+\end{gather*}
 
 
 \item If $\alpha$ is algebraic over $F$, with minimal polynomial $f(X)$, then
 the map $\varphi\mapsto\varphi(\alpha)$ defines a one-to-one correspondence
-\[
+\begin{gather*}
 \{\text{extensions }\varphi\colon F[\alpha]\rightarrow\Omega\text{\textrm{\ of
-}}\varphi_{0}\}\leftrightarrow\{\text{\textrm{roots of }}\varphi_{0}f\text{ in
+}}\varphi_{0}\}\\
+\updownarrow\\
+\{\text{\textrm{roots of }}\varphi_{0}f\text{ in
 }\Omega\}.
-\]
+\end{gather*}
 In particular, the number of such maps is the number of distinct roots of
 $\varphi_{0}f$ in $\Omega$.
 \end{enumerate}
@@ -2306,10 +2313,11 @@ The proposition allows us to speak of the greatest common divisor of $f$ and
 $g$ without reference to a field.
 
 Let $f\in F[X]$. Then $f$ splits into linear factors
-\begin{equation}
+\begin{align}
 f(X)=a\prod_{i=1}^{r}(X-\alpha_{i})^{m_{i}},\text{ }\alpha_{i}\text{ distinct,
-}m_{i}\geq1\text{, }\sum_{i=1}^{r}m_{i}=\deg(f), \label{eq5}%
-\end{equation}
+}\notag\\
+m_{i}\geq1\text{, }\sum_{i=1}^{r}m_{i}=\deg(f), \label{eq5}%
+\end{align}
 in $E[X]$ for some extension $E$ of $F$ (see \ref{sf4}). We say that
 $\alpha_{i}$ is a root of $f$ of \emph{multiplicity}%
 \index{multiplicity}
@@ -2783,15 +2791,17 @@ $E[X]$.
 Let $f$ be a monic irreducible polynomial of degree $m$ in $F[X]$, and let $E$
 be an algebraic extension of $F$. If $f$ has a root in $E$, so that it is the
 minimal polynomial of an element of $E$, then
-\[
-\renewcommand{\arraystretch}{1.3}\left.
+\begin{gather*}
+\renewcommand{\arraystretch}{1.3}\left\{
 \begin{array}
 [c]{lcl}%
 E/F\text{\ separable } & \implies & \text{\ }f\text{\ has only simple roots}\\
 E/F\text{\ normal } & \implies & f\text{\ splits in }E
 \end{array}
-\right\}  \implies f\text{\ has }m\text{\ distinct roots in }E.
-\]
+\right\}  \\
+\Downarrow \\
+f\text{\ has }m\text{\ distinct roots in }E.
+\end{gather*}
 It follows that $E/F$ is separable and normal if and only if the minimal
 polynomial of every element $\alpha$ of $E$ has $[F[\alpha]\colon F]$ distinct
 roots in $E$.
@@ -2985,10 +2995,11 @@ subextension. Then $E$ is Galois over $M$ by (\ref{ft15}), which means that
 $E^{\Gal(E/M)}=M\,$.
 
 (a) We have the obvious implications,
-\[
-H_{1}\supset H_{2}\implies E^{H_{1}}\subset E^{H_{2}}\implies\Gal(E/E^{H_{1}%
+\begin{align*}
+H_{1}\supset H_{2}\implies E^{H_{1}}\subset E^{H_{2}}\implies\\
+\Gal(E/E^{H_{1}%
 })\supset\Gal(E/E^{H_{2}}).
-\]
+\end{align*}
 As $\Gal(E/E^{H_{i}})=H_{i}$, this proves (a).
 
 (b) Let $H$ be a subgroup of $G$. According to \ref{ft13}b, \qquad\
@@ -3069,7 +3080,6 @@ is an isomorphism.
 \begin{proof}
 Because $E$ is Galois over $F$, it is the splitting field of a separable polynomial
 
-\noindent\begin{minipage}[t]{4.5in}
 $f\in F[X]$. Then $EL$ is the splitting field of $f$ over
 $L$, and $E$ is the splitting field of $f$ over $E\cap L$. Hence $EL/L$ and
 $E/E\cap L$ are Galois.
@@ -3082,7 +3092,7 @@ If $\sigma\in\Gal(EL/L)$ fixes the elements of $E$, then it fixes the elements
 of $EL$, and hence is the identity map. Thus, $\sigma\mapsto\sigma|E$ is injective.
 If $\alpha\in$ $E$ is fixed by all $\sigma\in\Gal(EL/L)$, then $\alpha\in
 E\cap L$. By Corollary \ref{ft10d},
-\end{minipage}
+\begin{center}
 \begin{minipage}[t]{1.5in}
 \begin{tikzpicture}[baseline=(current bounding box.north)]
 \matrix(m)[matrix of math nodes, row sep=1.5em, column sep=0.5em,
@@ -3099,7 +3109,7 @@ edge  (m-2-3)
 edge  (m-4-2);
 \end{tikzpicture}
 \end{minipage}
-
+\end{center}
 
 \noindent this implies that the image of $\sigma\mapsto\sigma|E$ is
 $\Gal(E/E\cap L)$.
@@ -3130,10 +3140,11 @@ L]\overset{\ref{ef10}}{=}\frac{[E\colon F]}{[E\cap L\colon F]}\text{.}%
 \label{ft18h}Let $E_{1}$ and $E_{2}$ be extensions of $F$ contained in some
 common field. If $E_{1}$ and $E_{2}$ are Galois over $F$, then $E_{1}E_{2}$
 and $E_{1}\cap E_{2}$ are Galois over $F$, and the map
-\[
-\sigma\mapsto(\sigma|E_{1},\sigma|E_{2})\colon\Gal(E_{1}E_{2}/F)\rightarrow
+\begin{align*}
+\sigma&\mapsto(\sigma|E_{1},\sigma|E_{2})\colon\\
+\Gal(E_{1}E_{2}/F)&\rightarrow
 \Gal(E_{1}/F)\times\!\Gal(E_{2}/F)
-\]
+\end{align*}
 is an isomorphism of $\Gal(E_{1}E_{2}/F)$ onto the subgroup%
 \[
 H=\{(\sigma_{1},\sigma_{2})\mid\sigma_{1}|E_{1}\cap E_{2}=\sigma_{2}|E_{1}\cap
@@ -3144,8 +3155,6 @@ of $\Gal(E_{1}/F)\times\!\Gal(E_{2}/F)$.
 
 \noindent\textsc{Proof: }Let $a\in E_{1}\cap E_{2}$, and let $f$ be its
 minimal polynomial over $F$. Then $f$ has
-
-\noindent\begin{minipage}[t]{4.0in}
 $\deg f$ distinct roots in $E_{1}$ and $\deg
 f$ distinct roots in $E_{2}$. Since $f$ can have at most $\deg f$ roots in
 $E_{1}E_{2}$, it follows that it has $\deg f$ distinct roots in $E_{1}\cap
@@ -3157,7 +3166,6 @@ field for $\textrm{lcm}(f_{1},f_{2})$, and hence it also is Galois over $F$.
 The map $\sigma\mapsto(\sigma|E_{1},\sigma|E_{2})$ is clearly an injective
 homomorphism, and its image is contained in $H$. We'll prove that the image is
 the whole of $H$ by counting.
-\end{minipage}
 \begin{minipage}[t]{1.5in}
 \begin{tikzpicture}[baseline=(current bounding box.north)]
 \matrix(m)[matrix of math nodes, row sep=1.5em, column sep=0.1em,
@@ -3196,8 +3204,7 @@ which equals $[E_{1}E_{2}\colon F]$ by (\ref{ft18g})$.\hfill\square$
 \label{ft19}We analyse the extension $\mathbb{Q}[\zeta]/\mathbb{Q}$, where
 $\zeta$ is a primitive $7$th root of $1$, say $\zeta=e^{2\pi i/7}$.
 
-\smallskip\noindent\begin{minipage}{3.0in}
-$\quad$Note that $\mathbb{Q}[\zeta]$ is the splitting field of the polynomial
+Note that $\mathbb{Q}[\zeta]$ is the splitting field of the polynomial
 $X^{7}-1$, and that $\zeta$ has minimal polynomial
 \[
 X^{6}+X^{5}+X^{4}+X^{3}+X^{2}+X+1
@@ -3213,7 +3220,7 @@ $(\mathbb{Z}/7\mathbb{Z})^{\times}$ generates it (the powers of $3$ mod $7$
 are $3,2,6,4,5,1$). We investigate the subfields of $\mathbb{Q}[\zeta]$
 corresponding to the subgroups $\langle{}\sigma^{3}\rangle$ and $\langle
 {}\sigma^{2}\rangle$.
-\end{minipage}
+
 \begin{minipage}{2.5in}
 \begin{tikzpicture}[descr/.style={fill=white}]
 \matrix(m)[matrix of math nodes, row sep=3.0em, column sep=1.6em,
@@ -3248,7 +3255,8 @@ that
 \alpha_{1}\alpha_{2}\alpha_{3}  &  =(\zeta+\zeta^{6})(\zeta^{2}+\zeta
 ^{5})(\zeta^{3}+\zeta^{4})\\
 &  =(\zeta+\zeta^{3}+\zeta^{4}+\zeta^{6})(\zeta^{3}+\zeta^{4})\\
-&  =(\zeta^{4}+\zeta^{6}+1+\zeta^{2}+\zeta^{5}+1+\zeta+\zeta^{3})\\
+&  =(\zeta^{4}+\zeta^{6}+1+\zeta^{2}\\
+& \quad +\zeta^{5}+1+\zeta+\zeta^{3})\\
 &  =1.
 \end{align*}
 Hence the minimal polynomial\footnote{More directly, on setting $X=\zeta
@@ -3278,8 +3286,7 @@ field fixed by $\langle{}\sigma^{2}\rangle$ is $\mathbb{Q}[\sqrt{-7}].$
 \label{ft20}We compute the Galois group of a splitting field $E$ of
 $X^{5}-2\in\mathbb{Q}[X]$.
 
-\noindent\begin{minipage}{4.0in}
-\smallskip Recall from Exercise \ref{x7} that $E=\mathbb{Q}[\zeta
+Recall from Exercise \ref{x7} that $E=\mathbb{Q}[\zeta
 ,\alpha]$ where $\zeta$ is a primitive $5$th root of $1$, and
 $\alpha$ is a root of $X^{5}-2$. For example, we could take $E$ to be the
 splitting field of $X^{5}-2$ in $\mathbb{C}$, with $\zeta=e^{2\pi i/5}$ and
@@ -3294,7 +3301,7 @@ Because $4$ and $5$ are relatively prime,
 \lbrack\mathbb{Q}[\zeta,\alpha]:\mathbb{Q}]=20.
 \]
 {}
-\end{minipage}
+
 \begin{minipage}{2.0in}
 \begin{tikzpicture}[descr/.style={fill=white}]
 \matrix(m)[matrix of math nodes, row sep=2.5em, column sep=1em,
@@ -3309,6 +3316,7 @@ edge  node[descr] {$H$} (m-2-3)
 edge  (m-2-3);
 \end{tikzpicture}
 \end{minipage}
+
 Hence $G=\Gal(\mathbb{Q}[\zeta,\alpha]/\mathbb{Q})$ has order $20$, and the
 subgroups $N$ and $H$ fixing $\mathbb{Q}[\zeta]$ and $\mathbb{Q}[\alpha]$ have
 orders $5$ and $4$ respectively. Because $\mathbb{Q}[\zeta]$ is normal over
@@ -3623,10 +3631,11 @@ Now consider a monic polynomial
 f(X)=X^{n}+a_{1}X^{n-1}+\cdots+a_{n}%
 \]
 and let $f(X)=\prod_{i=1}^{n}(X-\alpha_{i})$ in some splitting field. Set
-\[
-\Delta(f)=\prod_{1\leq i<j\leq n}(\alpha_{i}-\alpha_{j}),\qquad D(f)=\Delta
+\begin{gather*}
+\Delta(f)=\prod_{1\leq i<j\leq n}(\alpha_{i}-\alpha_{j}),\\
+ D(f)=\Delta
 (f)^{2}=\prod_{1\leq i<j\leq n}(\alpha_{i}-\alpha_{j})^{2}.
-\]
+\end{gather*}
 The \emph{discriminant }%
 \index{discriminant}%
 of\emph{\ }$f$ is defined to be $D(f)$. Note that $D(f)$ is nonzero if and
@@ -3664,9 +3673,10 @@ splitting field for $f$ and let $G_{f}=\Gal(F_{f}/F)$.
 
 \item Assume that $F$ has characteristic $\neq 2$. The subfield of $F_{f}$ corresponding to $A_{n}\cap G_{f}$ is
 $F[\Delta(f)]$. Hence
-\[
-G_{f}\subset A_{n}\iff\Delta(f)\in F\iff D(f)\text{\ is a square in }F.
-\]
+\begin{align*}
+G_{f}\subset A_{n}\iff\Delta(f)\in F\iff \\
+D(f)\text{\ is a square in }F.
+\end{align*}
 
 \end{enumerate}
 \end{corollary}
@@ -3830,7 +3840,6 @@ $2$-subgroup fixes exactly one of $\alpha,\beta,$ or $\gamma$, and therefore
 their intersection $V$ is the subgroup of $\Sym(\{\alpha_{1},\alpha_{2}%
 ,\alpha_{3},\alpha_{4}\})$ fixing $\alpha$, $\beta$, and $\gamma$.\bigskip
 
-\noindent\begin{minipage}{4.0in}
 \begin{lemma}
 \label{cg7}The fixed field of $G_{f}\cap V$ is $F[\alpha,\beta,\gamma]$. Hence
 $F[\alpha,\beta,\gamma]$ is Galois over $F$ with Galois group $G_{f}/G_{f}\cap
@@ -3842,7 +3851,8 @@ $F[\alpha,\beta,\gamma]$ is $G_{f}\cap V$, and so $E^{G_{f}\cap V}%
 =F[\alpha,\beta,\gamma]$ by the fundamental theorem of Galois theory. The
 remaining statements follow from the fundamental theorem using that $V$ is normal.
 \end{proof}{\smallskip}
-\end{minipage}\hspace{0.3in} \begin{minipage}{1in}
+
+\begin{minipage}{1in}
 \begin{tikzpicture}
 \matrix(m)[matrix of math nodes, row sep=2em, column sep=2.5em,
 text height=1.5ex, text depth=0.25ex]
@@ -4670,11 +4680,12 @@ $E=F[\gamma]$.
 \begin{proof}
 For finite fields, we proved this in \ref{cg17}. Hence we may assume $F$ to be
 infinite. It suffices to prove the statement for $r=2$, for then%
-\[
-F[\alpha_{1},\alpha_{2},\ldots,\alpha_{r}]=F[\alpha_{1}^{\prime},\alpha
-_{3},\ldots,\alpha_{r}]=F[\alpha_{1}^{\prime\prime},\alpha_{4},\ldots
+\begin{align*}
+F[\alpha_{1},\alpha_{2},\ldots,\alpha_{r}]&=F[\alpha_{1}^{\prime},\alpha
+  _{3},\ldots,\alpha_{r}]\\
+&=F[\alpha_{1}^{\prime\prime},\alpha_{4},\ldots
 ,\alpha_{r}]=\cdots.
-\]
+\end{align*}
 Thus let $E=F[\alpha,\beta]$ with $\beta$ separable over $F$. Let $f$ and $g$
 be the minimal polynomials of $\alpha$ and $\beta$ over $F$, and let $L$ be a
 splitting field for $fg$ containing $E$. Let $\alpha_{1}=\alpha,\ldots
@@ -4948,10 +4959,11 @@ $X^{n}-1$ of this form with $d<n$, the polynomial we are left with is called
 the $n$th \emph{cyclotomic polynomial}%
 \index{cyclotomic polynomial}
 $\Phi_{n}$. Thus
-\[
-\Phi_{n}=\prod(X-\zeta)\qquad\text{(product over the primitive }n{\text{th}%
+\begin{align*}
+\Phi_{n}=\prod(X-\zeta)\\
+\text{(product over the primitive }n{\text{th}%
 }\text{\ roots of }1).
-\]
+\end{align*}
 It has degree%
 \index{phi(n)@$\varphi(n)$}
 $\varphi(n)$, the order of $(\mathbb{Z}/n\mathbb{Z})^{\times}$. Since every
@@ -5009,16 +5021,19 @@ The $n$th cyclotomic polynomial $\Phi_{n}$ is irreducible in $\mathbb{Q}[X]$.
 Let $f(X)$ be a monic irreducible factor of $\Phi_{n}$ in $\mathbb{Q}[X]$. Its
 roots will be primitive $n$th roots of $1$, and we have to show they include
 \textit{all} primitive $n$th roots of $1$. For this it suffices to show that
-\[
+\begin{align*}
 \zeta\text{\ a root of }f(X)\implies\zeta^{i}\text{\ a root of }%
-f(X)\text{\ for all }i\text{\ such that }\gcd(i,n)=1.
-\]
+f(X)\\
+\text{\ for all }i\text{\ such that }\gcd(i,n)=1.
+\end{align*}
 Such an $i$ is a product of primes not dividing $n$, and so it suffices to
 show that
-\[
-\zeta\text{\ a root of }f(X)\implies\zeta^{p}\text{\ a root of $f(X)$ for all
+\begin{align*}
+\zeta\text{\ a root of }f(X)\implies\zeta^{p}\text{\ a root of $f(X)$
+}\\
+\text{for all
 primes }p\ \text{not dividing }n.
-\]
+\end{align*}
 
 
 Write
@@ -5123,10 +5138,11 @@ further evidence, I'm sticking with Dedekind.
 Let $F$ be a field and $G$ a group. Every finite set $\{\chi_{1},\ldots
 ,\chi_{m}\}$ of group homomorphisms $G\rightarrow F^{\times}$ is linearly
 independent over $F$, i.e.,
-\[
-\sum a_{i}\chi_{i}=0\text{\ (as a function }G\rightarrow F)\implies
+\begin{align*}
+\sum a_{i}\chi_{i}=0\text{\ (as a function }G\rightarrow F)\\
+\implies
 a_{1}=0,\ldots,a_{m}=0.
-\]
+\end{align*}
 
 \end{theorem}
 
@@ -5141,10 +5157,11 @@ a_{1}\chi_{1}(x)+a_{2}\chi_{2}(x)+\cdots+a_{m}\chi_{m}(x)=0\quad\text{for all
 We have to show that the $a_{i}$ are zero. As $\chi_{1}$ and $\chi_{2}$ are
 distinct, they will take distinct values on some $g\in G$. On replacing $x$
 with $gx$ in the equation, we find that
-\[
-a_{1}\chi_{1}(g)\chi_{1}(x)+a_{2}\chi_{2}(g)\chi_{2}(x)+\cdots+a_{m}\chi
+\begin{align*}
+a_{1}\chi_{1}(g)\chi_{1}(x)+a_{2}\chi_{2}(g)\chi_{2}(x)+\cdots\\
++a_{m}\chi
 _{m}(g)\chi_{m}(x)=0\quad\text{for all }x\in G.
-\]
+\end{align*}
 On multiplying the first equation by $\chi_{1}(g)$ and subtracting it from the
 second, we obtain the equation
 \[
@@ -5272,11 +5289,12 @@ f(\sigma_{1}\alpha,\ldots,\sigma_{m}\alpha)=0
 \]
 for all $\alpha\in E$. For a basis $\alpha_{1},\ldots,\alpha_{m}$ of $E$ over
 $F$, let
-\[
-g(Y_{1},\ldots,Y_{m})=f(\tstyle\sum\nolimits_{i=1}^{m}Y_{i}\sigma_{1}%
+\begin{align*}
+&g(Y_{1},\ldots,Y_{m})\\
+&=f(\tstyle\sum\nolimits_{i=1}^{m}Y_{i}\sigma_{1}%
 \alpha_{i}, \tstyle\sum\nolimits_{i=1}^{m}Y_{i}\sigma_{2}\alpha_{i},\ldots)\in
 E[Y_{1},\ldots,Y_{m}]\text{.}%
-\]
+\end{align*}
 The hypothesis on $f$ implies that $g(a_{1},\ldots,a_{m})=0$ for all $a_{i}\in
 F$, and so $g=0$ (because $F$ is infinite). But the matrix $(\sigma_{i}%
 \alpha_{j})$ is invertible (\ref{ag14m}). Since $g$ is obtained from $f$ by an
@@ -5463,10 +5481,12 @@ Moreover, if $x\in M$ satisfies (\ref{eq6}), then the formulas $f(\sigma
 ^{i})=x+\sigma x+\cdots+\sigma^{i-1}x$ define a crossed homomorphism $f\colon
 G\rightarrow M$. Thus, for a finite cyclic group $G=\langle\sigma\rangle$,
 there is a one-to-one correspondence
-\[
-\{\text{crossed homs }f\colon G\rightarrow M\}\overset{f\leftrightarrow
-f(\sigma)}{\longleftrightarrow}\{x\in M\text{\ satisfying (\ref{eq6})}\}.
-\]
+\begin{gather*}
+\{\text{crossed homs }f\colon G\rightarrow M\}\\
+\Big\updownarrow {f\leftrightarrow
+f(\sigma)}\\
+\{x\in M\text{\ satisfying (\ref{eq6})}\}.
+\end{gather*}
 
 
 (b) For every $x\in M$, we obtain a crossed homomorphism by putting
@@ -5498,11 +5518,12 @@ $G$-modules%
 0\rightarrow M^{\prime}\rightarrow M\rightarrow M^{\prime\prime}\rightarrow0
 \]
 gives rise to an exact sequence%
-\[
-0\longrightarrow M^{\prime G}\longrightarrow M^{G}\longrightarrow
-M^{\prime\prime G}\overset{d}{\longrightarrow}H^{1}(G,M^{\prime}%
+\begin{align*}
+0&\longrightarrow M^{\prime G}\longrightarrow M^{G}\longrightarrow
+M^{\prime\prime G}\\
+&\overset{d}{\longrightarrow}H^{1}(G,M^{\prime}%
 )\longrightarrow H^{1}(G,M)\longrightarrow H^{1}(G,M^{\prime\prime}).
-\]
+\end{align*}
 Let $m^{\prime\prime}\in M^{\prime\prime G}$, and let $m\in M$ map to
 $m^{\prime\prime}$. For all $\sigma\in G$, $\sigma m-m$ lies in the submodule
 $M^{\prime}$ of $M$, and $\sigma\mapsto\sigma m-m\colon G\rightarrow
@@ -5772,10 +5793,11 @@ For any finite Galois extension $E$ of $F$, define $B(E)=F^{\times}\cap
 E^{\times n}$. Then $E\supset F[B(E)^{\frac{1}{n}}]$, and for any group $B$
 containing $F^{\times n}$ as a subgroup of finite index, $B(F[B^{\frac{1}{n}%
 }])\supset B$. Therefore,
-\[
-\lbrack E\colon F]\geq\lbrack F[B(E)^{\frac{1}{n}}]\colon F]=(B(F[B(E)^{\frac
+\begin{align*}
+&\lbrack E\colon F]\geq\lbrack F[B(E)^{\frac{1}{n}}]\colon F]\\
+=&(B(F[B(E)^{\frac
 {1}{n}}])\colon F^{\times n})\geq(B(E)\colon F^{\times n}).
-\]
+\end{align*}
 If $E/F$ is abelian of exponent $n$, then $[E\colon F]=(B(E)\colon F^{\times
 n})$, and so equalities hold throughout: $E=F[B(E)^{\frac{1}{n}}]$.
 
@@ -5784,11 +5806,12 @@ index, and let $E=F[B^{\frac{1}{n}}]$. Then $E$ is a composite of the
 extensions $F[a^{\frac{1}{n}}]$ for $a$ running through a set of generators
 for $B/F^{\times n}$, and so it is a finite abelian extension of exponent $n$.
 Therefore
-\[
-a\mapsto\left(  \sigma\mapsto\frac{\sigma a^{\frac{1}{n}}}{a^{\frac{1}{n}}%
-}\right)  \colon B(E)/F^{\times n}\rightarrow\Hom(G,\mu_{n}),\quad
+\begin{align*}
+a&\mapsto\left(  \sigma\mapsto\frac{\sigma a^{\frac{1}{n}}}{a^{\frac{1}{n}}%
+}\right)  \colon\\
+ B(E)/F^{\times n}&\rightarrow\Hom(G,\mu_{n}),\quad
 G=\Gal(E/F),
-\]
+\end{align*}
 is an isomorphism. This map sends $B/F^{\times n}$ isomorphically onto the
 subgroup $\Hom(G/H,\mu_{n})$ of $\Hom(G,\mu_{n})$ where $H$ consists of the
 $\sigma\in G$ such that $\sigma a^{\frac{1}{n}}/a^{\frac{1}{n}}=1$ for all
@@ -5938,11 +5961,13 @@ P(X_{\sigma(1)},\ldots,X_{\sigma(n)})=P(X_{1},\ldots,X_{n}),\quad\text{all
 For example
 \[
 \renewcommand{\arraystretch}{1.3}%
+\small
 \begin{array}
 [c]{rcll}%
 p_{1} & = & \sum_{i}X_{i} & =X_{1}+X_{2}+\cdots+X_{n},\\
 p_{2} & = & \sum_{i<{}j}X_{i}X_{j} & =X_{1}X_{2}+X_{1}X_{3}+\cdots+X_{1}%
-X_{n}+X_{2}X_{3}+\cdots+X_{n-1}X_{n},\\
+X_{n}\\
+&&&\quad +X_{2}X_{3}+\cdots+X_{n-1}X_{n},\\
 p_{3} & = & \sum_{i<{}j<{}k}X_{i}X_{j}X_{k}, & =X_{1}X_{2}X_{3}+\cdots\\
 & \cdots &  & \\
 p_{r} & = & \sum_{i_{1}<{}\cdots<{}i_{r}}X_{i_{1}}...X_{i_{r}} & \\
@@ -6014,8 +6039,9 @@ $p_{1},\ldots,p_{n}$.
 \label{ag27a}(a) The proof is algorithmic. Consider, for
 example,\footnote{From the Wikipedia: elementary symmetric polynomials.}
 \begin{align*}
-P(X_{1},X_{2})  &  =(X_{1}+7X_{1}X_{2}+X_{2})^{2}\\
-&  =X_{1}^{2}+2X_{1}X_{2}+14X_{1}^{2}X_{2}+X_{2}^{2}+14X_{1}X_{2}^{2}%
+&P(X_{1},X_{2})  \\
+  =&(X_{1}+7X_{1}X_{2}+X_{2})^{2}\\
+  =&X_{1}^{2}+2X_{1}X_{2}+14X_{1}^{2}X_{2}+X_{2}^{2}+14X_{1}X_{2}^{2}%
 +49X_{1}^{2}X_{2}^{2}.
 \end{align*}
 \noindent The highest monomial is $49X_{1}^{2}X_{2}^{2}$, and so we subtract
@@ -6053,11 +6079,14 @@ f(X)=\tstyle\prod\nolimits_{i=1}^{n}(X-\alpha_{i}),\quad\alpha_{i}\in
 S\text{.}%
 \]
 Then
-\[
-a_{1}=-p_{1}(\alpha_{1},\ldots,\alpha_{n}),\quad a_{2}=p_{2}(\alpha_{1}%
-,\ldots,\alpha_{n}),\quad\ldots,\quad a_{n}=(-1)^{n}p_{n}(\alpha_{1}%
+\begin{align*}
+a_{1}=&-p_{1}(\alpha_{1},\ldots,\alpha_{n}),\\
+ a_{2}=&p_{2}(\alpha_{1}%
+,\ldots,\alpha_{n}),\\
+&\ldots,\\
+ a_{n}=&(-1)^{n}p_{n}(\alpha_{1}%
 ,\ldots,\alpha_{n}).
-\]
+\end{align*}
 Thus the \textit{elementary}\emph{\/} symmetric polynomials in the roots of
 $f(X)$ lie in $R$, and so the theorem implies that \textit{every}\emph{\/}
 symmetric polynomial in the roots of $f(X)$ lies in $R$. For example, the
@@ -6093,9 +6122,10 @@ so this follows from (\ref{ft12}).
 
 The field $F(X_{1},\ldots,X_{n})$ is the splitting field over $F(p_{1}%
 ,\ldots,p_{n})$ of%
-\[
-g(T)=(T-X_{1})\cdots(T-X_{n})=X^{n}-p_{1}X^{n-1}+\cdots+(-1)^{n}p_{n}.
-\]
+\begin{align*}
+g(T)&=(T-X_{1})\cdots(T-X_{n})\\
+&=X^{n}-p_{1}X^{n-1}+\cdots+(-1)^{n}p_{n}.
+\end{align*}
 Therefore, the Galois group of $g(T)\in F(p_{1},\ldots,p_{n})[T]$ is $S_{n}$.
 
 \begin{aside}
@@ -6246,11 +6276,13 @@ Recall that, for an $n\times n$ matrix $A=(a_{ij})$
 \[
 \renewcommand{\arraystretch}{1.3}
 \begin{array}
-[c]{rcll}%
-\Tr(A) & = & \sum\nolimits_{i}a_{ii}\quad\quad & \text{(trace of }A\text{)}\\
+[c]{rcl}%
+\Tr(A) & = & \sum\nolimits_{i}a_{ii} \qquad  \text{(trace of }A\text{)}\\
 \det(A) & = & \sum\nolimits_{\sigma\in S_{n}}\text{sign}(\sigma)a_{1\sigma
-(1)}\cdots a_{n\sigma(n)},\quad\quad & \text{(determinant of }A\text{)}\\
-c_{A}(X) & = & \det(XI_{n}-A)\quad\quad & \text{(characteristic polynomial of
+(1)}\cdots a_{n\sigma(n)},\quad \\
+&& \qquad \text{(determinant of }A\text{)}\\
+c_{A}(X) & = & \det(XI_{n}-A)\quad \\
+&&\qquad \text{(characteristic polynomial of
 }A\text{).}%
 \end{array}
 \]
@@ -6291,8 +6323,9 @@ and we define%
 \Tr_{E/F}(\alpha) & = & \Tr(\alpha_{L}) & \text{(trace of }\alpha\text{)}\\
 \Nm_{E/F}(\alpha) & = & \det(\alpha_{L})\quad\quad & \text{(norm of }%
 \alpha\text{)}\\
-c_{\alpha,E/F}(X) & = & c_{\alpha_{L}}(X) & \text{(characteristic polynomial
-of }\alpha\text{)}.
+c_{\alpha,E/F}(X) & = & c_{\alpha_{L}}(X) & \\
+&&\multicolumn{2}{c}{\text{(characteristic polynomial
+of }\alpha\text{)}}.
 \end{array}
 \]
 Thus, $\Tr_{E/F}$\ is a homomorphism $(E,+)\rightarrow(F,+)$, and $\Nm_{E/F}$
@@ -6433,15 +6466,15 @@ If $\alpha\in\mathbb{R}$, then $c_{\alpha}(X)=(X-a)^{2}$.
 (b) Let $E$ be the splitting field of $X^{8}-2$. Then $E$ has degree $16$ over
 $\mathbb{Q}{}$ and is generated by $\alpha=\sqrt[8]{2}$ and $i=\sqrt{-1}$ (see
 Exercise \ref{x16}). The minimal polynomial of $\alpha$ is $X^{8}-2$, and so
-\[
+\[\small
 \renewcommand{\arraystretch}{1.3}
 \begin{array}
 [c]{rcllrcl}%
-c_{\alpha,\mathbb{Q}{}[\alpha]/\mathbb{Q}{}}(X) & = & X^{8}-2, & \quad &
+c_{\alpha,\mathbb{Q}{}[\alpha]/\mathbb{Q}{}}(X) & = & X^{8}-2, &  &
 c_{\alpha,E/\mathbb{Q}{}}(X) & = & (X^{8}-2)^{2}\\
-\Tr_{\mathbb{Q}[\alpha]/\mathbb{Q}}\alpha & = & 0,\quad &  & \Tr_{E/\mathbb{Q}%
+\Tr_{\mathbb{Q}[\alpha]/\mathbb{Q}}\alpha & = & 0, &  & \Tr_{E/\mathbb{Q}%
 }\alpha & = & 0\\
-\Nm_{\mathbb{Q}[\alpha]/\mathbb{Q}}\alpha & = & -2,\quad &  &
+\Nm_{\mathbb{Q}[\alpha]/\mathbb{Q}}\alpha & = & -2, &  &
 \Nm_{E/\mathbb{Q}}\alpha & = & 4
 \end{array}
 \]
@@ -6522,7 +6555,8 @@ Compute that
 -\alpha_{j})^{2}\\
 &  =(-1)^{m(m-1)/2}\cdot\prod_{i}(\prod_{j\neq i}(\alpha_{i}-\alpha_{j}))\\
 &  =(-1)^{m(m-1)/2}\cdot\prod_{i}f^{\prime}(\alpha_{i})\\
-&  =(-1)^{m(m-1)/2}\Nm_{F[\alpha]/F}(f^{\prime}(\alpha))\qquad\text{(by
+&  =(-1)^{m(m-1)/2}\Nm_{F[\alpha]/F}(f^{\prime}(\alpha))\\
+&\qquad\text{(by
 \ref{ag36})}.
 \end{align*}
 
@@ -6558,7 +6592,9 @@ From the last two equations, it is clear that $F[\alpha]=F[\gamma]$, and so
 the minimal polynomial of $\gamma$ over $F$ has degree $n$ also. If we write
 \begin{align*}
 f\left(  \frac{-nb}{X+(n-1)a}\right)   &  =\frac{P(X)}{Q(X)}\\
-P(X)  &  =(X+(n-1)a)^{n}-na(X+(n-1)a)^{n-1}+(-1)^{n}n^{n}b^{n-1}\\
+P(X)  &  =(X+(n-1)a)^{n}\\
+   &\quad -na(X+(n-1)a)^{n-1}\\
+   &\quad +(-1)^{n}n^{n}b^{n-1}\\
 Q(X)  &  =(X+(n-1)a)^{n}/b,
 \end{align*}
 then
@@ -6576,9 +6612,10 @@ $P(X)$, namely,
 \Nm\gamma=n^{n}b^{n-1}+(-1)^{n-1}(n-1)^{n-1}a^{n}.
 \]
 Therefore,
-\[
-\disc(X^{n}+aX+b)=(-1)^{n(n-1)/2}(n^{n}b^{n-1}+(-1)^{n-1}(n-1)^{n-1}a^{n}),
-\]
+\begin{align*}
+&\disc(X^{n}+aX+b)\\
+=&(-1)^{n(n-1)/2}(n^{n}b^{n-1}+(-1)^{n-1}(n-1)^{n-1}a^{n}),
+\end{align*}
 which is something PARI%
 \index{PARI}
 doesn't know (because it doesn't understand symbols as exponents). For
