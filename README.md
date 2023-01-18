@@ -12,3 +12,8 @@ The following adjustments are made:
 - Adjusted font to be more like sans-serif, for screen reading
 - Shrank some diagrams
 - Long formulas were broke into multiple lines.
+
+## Licence
+
+The oringinal source is released under Creative Commons CC BY-NC-SA
+4.0 licence.
