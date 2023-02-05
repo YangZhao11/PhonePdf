@@ -31,3 +31,16 @@ book. Use the following command to add this index to the pdf file:
 gs -sDEVICE=pdfwrite -q -dBATCH -dNOPAUSE \
   -sOutputFile=AT_indexed.pdf AT_index.info -f AT.pdf
 ```
+
+## Fulton's Algebraic Curves
+PDF can be cropped using this command:
+```
+pdfcrop -bbox-even "140 105 540 700" -bbox-odd "80 105 480 700" CurveBook.pdf
+```
+
+We also have a `CurveBook_index.info` file to add index to this pdf
+```
+gs -sDEVICE=pdfwrite -q -dBATCH -dNOPAUSE \
+  -sOutputFile=CurveBook_indexed.pdf CurveBook_index.info \
+  -f CurveBook.pdf
+```
