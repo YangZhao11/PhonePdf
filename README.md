@@ -44,3 +44,15 @@ gs -sDEVICE=pdfwrite -q -dBATCH -dNOPAUSE \
   -sOutputFile=CurveBook_indexed.pdf CurveBook_index.info \
   -f CurveBook.pdf
 ```
+
+## Bounding Boxes
+podofobox can be used to modify the bounding box of a PDF file. It
+works nicely to crop out the margins of some files, so you can have
+larger text on an e-reader or tablet device. Something like this would
+work:
+
+```
+podofobox original.pdf crop.pdf media 5000 5300 34000 58000
+```
+Unfortunately podofobox does not support different bounding box for
+even and odd pages separately.
