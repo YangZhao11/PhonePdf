@@ -1,0 +1,186 @@
+[/Title(Introduction) /Page 9 /OUT pdfmark
+[/Count -7 /Title(Chapter 1 The fundamental group and some of its applications) /Page 13 /OUT pdfmark
+[/Title( 1 What is algebraic topology?) /Page 13 /OUT pdfmark
+[/Title( 2 The fundamental group) /Page 14 /OUT pdfmark
+[/Title( 3 Dependence on the basepoint) /Page 15 /OUT pdfmark
+[/Title( 4 Homotopy invariance) /Page 15 /OUT pdfmark
+[/Title( 5 Calculations: $\pi _1(\@mathbb R)=0$ and $\pi _1(S^1)=\@mathbb Z$) /Page 16 /OUT pdfmark
+[/Title( 6 The Brouwer fixed point theorem) /Page 18 /OUT pdfmark
+[/Title( 7 The fundamental theorem of algebra) /Page 18 /OUT pdfmark
+[/Count -8 /Title(Chapter 2 Categorical language and the van Kampen theorem) /Page 21 /OUT pdfmark
+[/Title( 1 Categories) /Page 21 /OUT pdfmark
+[/Title( 2 Functors) /Page 21 /OUT pdfmark
+[/Title( 3 Natural transformations) /Page 22 /OUT pdfmark
+[/Title( 4 Homotopy categories and homotopy equivalences) /Page 22 /OUT pdfmark
+[/Title( 5 The fundamental groupoid) /Page 23 /OUT pdfmark
+[/Title( 6 Limits and colimits) /Page 24 /OUT pdfmark
+[/Title( 7 The van Kampen theorem) /Page 25 /OUT pdfmark
+[/Title( 8 Examples of the van Kampen theorem) /Page 27 /OUT pdfmark
+[/Count -8 /Title(Chapter 3 Covering spaces) /Page 29 /OUT pdfmark
+[/Title( 1 The definition of covering spaces) /Page 29 /OUT pdfmark
+[/Title( 2 The unique path lifting property) /Page 30 /OUT pdfmark
+[/Title( 3 Coverings of groupoids) /Page 30 /OUT pdfmark
+[/Title( 4 Group actions and orbit categories) /Page 32 /OUT pdfmark
+[/Title( 5 The classification of coverings of groupoids) /Page 33 /OUT pdfmark
+[/Title( 6 The construction of coverings of groupoids) /Page 35 /OUT pdfmark
+[/Title( 7 The classification of coverings of spaces) /Page 36 /OUT pdfmark
+[/Title( 8 The construction of coverings of spaces) /Page 38 /OUT pdfmark
+[/Count -5 /Title(Chapter 4 Graphs) /Page 43 /OUT pdfmark
+[/Title( 1 The definition of graphs) /Page 43 /OUT pdfmark
+[/Title( 2 Edge paths and trees) /Page 43 /OUT pdfmark
+[/Title( 3 The homotopy types of graphs) /Page 44 /OUT pdfmark
+[/Title( 4 Covers of graphs and Euler characteristics) /Page 45 /OUT pdfmark
+[/Title( 5 Applications to groups) /Page 45 /OUT pdfmark
+[/Count -2 /Title(Chapter 5 Compactly generated spaces) /Page 47 /OUT pdfmark
+[/Title( 1 The definition of compactly generated spaces) /Page 47 /OUT pdfmark
+[/Title( 2 The category of compactly generated spaces) /Page 48 /OUT pdfmark
+[/Count -5 /Title(Chapter 6 Cofibrations) /Page 51 /OUT pdfmark
+[/Title( 1 The definition of cofibrations) /Page 51 /OUT pdfmark
+[/Title( 2 Mapping cylinders and cofibrations) /Page 52 /OUT pdfmark
+[/Title( 3 Replacing maps by cofibrations) /Page 53 /OUT pdfmark
+[/Title( 4 A criterion for a map to be a cofibration) /Page 53 /OUT pdfmark
+[/Title( 5 Cofiber homotopy equivalence) /Page 54 /OUT pdfmark
+[/Count -6 /Title(Chapter 7 Fibrations) /Page 57 /OUT pdfmark
+[/Title( 1 The definition of fibrations) /Page 57 /OUT pdfmark
+[/Title( 2 Path lifting functions and fibrations) /Page 57 /OUT pdfmark
+[/Title( 3 Replacing maps by fibrations) /Page 58 /OUT pdfmark
+[/Title( 4 A criterion for a map to be a fibration) /Page 59 /OUT pdfmark
+[/Title( 5 Fiber homotopy equivalence) /Page 60 /OUT pdfmark
+[/Title( 6 Change of fiber) /Page 61 /OUT pdfmark
+[/Count -7 /Title(Chapter 8 Based cofiber and fiber sequences) /Page 65 /OUT pdfmark
+[/Title( 1 Based homotopy classes of maps) /Page 65 /OUT pdfmark
+[/Title( 2 Cones, suspensions, paths, loops) /Page 65 /OUT pdfmark
+[/Title( 3 Based cofibrations) /Page 66 /OUT pdfmark
+[/Title( 4 Cofiber sequences) /Page 67 /OUT pdfmark
+[/Title( 5 Based fibrations) /Page 69 /OUT pdfmark
+[/Title( 6 Fiber sequences) /Page 69 /OUT pdfmark
+[/Title( 7 Connections between cofiber and fiber sequences) /Page 71 /OUT pdfmark
+[/Count -6 /Title(Chapter 9 Higher homotopy groups) /Page 73 /OUT pdfmark
+[/Title( 1 The definition of homotopy groups) /Page 73 /OUT pdfmark
+[/Title( 2 Long exact sequences associated to pairs) /Page 73 /OUT pdfmark
+[/Title( 3 Long exact sequences associated to fibrations) /Page 74 /OUT pdfmark
+[/Title( 4 A few calculations) /Page 74 /OUT pdfmark
+[/Title( 5 Change of basepoint) /Page 76 /OUT pdfmark
+[/Title( 6 $n$-Equivalences, weak equivalences, and a technical lemma) /Page 77 /OUT pdfmark
+[/Count -7 /Title(Chapter 10 CW complexes) /Page 81 /OUT pdfmark
+[/Title( 1 The definition and some examples of CW complexes) /Page 81 /OUT pdfmark
+[/Title( 2 Some constructions on CW complexes) /Page 82 /OUT pdfmark
+[/Title( 3 HELP and the Whitehead theorem) /Page 83 /OUT pdfmark
+[/Title( 4 The cellular approximation theorem) /Page 84 /OUT pdfmark
+[/Title( 5 Approximation of spaces by CW complexes) /Page 85 /OUT pdfmark
+[/Title( 6 Approximation of pairs by CW pairs) /Page 86 /OUT pdfmark
+[/Title( 7 Approximation of excisive triads by CW triads) /Page 87 /OUT pdfmark
+[/Count -3 /Title(Chapter 11 The homotopy excision and suspension theorems) /Page 91 /OUT pdfmark
+[/Title( 1 Statement of the homotopy excision theorem) /Page 91 /OUT pdfmark
+[/Title( 2 The Freudenthal suspension theorem) /Page 93 /OUT pdfmark
+[/Title( 3 Proof of the homotopy excision theorem) /Page 94 /OUT pdfmark
+[/Count -4 /Title(Chapter 12 A little homological algebra) /Page 99 /OUT pdfmark
+[/Title( 1 Chain complexes) /Page 99 /OUT pdfmark
+[/Title( 2 Maps and homotopies of maps of chain complexes) /Page 99 /OUT pdfmark
+[/Title( 3 Tensor products of chain complexes) /Page 100 /OUT pdfmark
+[/Title( 4 Short and long exact sequences) /Page 101 /OUT pdfmark
+[/Count -5 /Title(Chapter 13 Axiomatic and cellular homology theory) /Page 103 /OUT pdfmark
+[/Title( 1 Axioms for homology) /Page 103 /OUT pdfmark
+[/Title( 2 Cellular homology) /Page 105 /OUT pdfmark
+[/Title( 3 Verification of the axioms) /Page 108 /OUT pdfmark
+[/Title( 4 The cellular chains of products) /Page 109 /OUT pdfmark
+[/Title( 5 Some examples: $T$, $K$, and $\@mathbb RP^n$) /Page 111 /OUT pdfmark
+[/Count -6 /Title(Chapter 14 Derivations of properties from the axioms) /Page 115 /OUT pdfmark
+[/Title( 1 Reduced homology; based versus unbased spaces) /Page 115 /OUT pdfmark
+[/Title( 2 Cofibrations and the homology of pairs) /Page 116 /OUT pdfmark
+[/Title( 3 Suspension and the long exact sequence of pairs) /Page 117 /OUT pdfmark
+[/Title( 4 Axioms for reduced homology) /Page 118 /OUT pdfmark
+[/Title( 5 Mayer-Vietoris sequences) /Page 120 /OUT pdfmark
+[/Title( 6 The homology of colimits) /Page 122 /OUT pdfmark
+[/Count -2 /Title(Chapter 15 The Hurewicz and uniqueness theorems) /Page 125 /OUT pdfmark
+[/Title( 1 The Hurewicz theorem) /Page 125 /OUT pdfmark
+[/Title( 2 The uniqueness of the homology of CW complexes) /Page 127 /OUT pdfmark
+[/Count -5 /Title(Chapter 16 Singular homology theory) /Page 131 /OUT pdfmark
+[/Title( 1 The singular chain complex) /Page 131 /OUT pdfmark
+[/Title( 2 Geometric realization) /Page 132 /OUT pdfmark
+[/Title( 3 Proofs of the theorems) /Page 133 /OUT pdfmark
+[/Title( 4 Simplicial objects in algebraic topology) /Page 134 /OUT pdfmark
+[/Title( 5 Classifying spaces and $K(\pi ,n)$s) /Page 136 /OUT pdfmark
+[/Count -5 /Title(Chapter 17 Some more homological algebra) /Page 139 /OUT pdfmark
+[/Title( 1 Universal coefficients in homology) /Page 139 /OUT pdfmark
+[/Title( 2 The K\"unneth theorem) /Page 140 /OUT pdfmark
+[/Title( 3 Hom functors and universal coefficients in cohomology) /Page 141 /OUT pdfmark
+[/Title( 4 Proof of the universal coefficient theorem) /Page 143 /OUT pdfmark
+[/Title( 5 Relations between $\otimes $ and Hom) /Page 144 /OUT pdfmark
+[/Count -5 /Title(Chapter 18 Axiomatic and cellular cohomology theory) /Page 145 /OUT pdfmark
+[/Title( 1 Axioms for cohomology) /Page 145 /OUT pdfmark
+[/Title( 2 Cellular and singular cohomology) /Page 146 /OUT pdfmark
+[/Title( 3 Cup products in cohomology) /Page 147 /OUT pdfmark
+[/Title( 4 An example: $\@mathbb RP^n$ and the Borsuk-Ulam theorem) /Page 148 /OUT pdfmark
+[/Title( 5 Obstruction theory) /Page 150 /OUT pdfmark
+[/Count -5 /Title(Chapter 19 Derivations of properties from the axioms) /Page 153 /OUT pdfmark
+[/Title( 1 Reduced cohomology groups and their properties) /Page 153 /OUT pdfmark
+[/Title( 2 Axioms for reduced cohomology) /Page 154 /OUT pdfmark
+[/Title( 3 Mayer-Vietoris sequences in cohomology) /Page 155 /OUT pdfmark
+[/Title( 4 Lim$^1$ and the cohomology of colimits) /Page 156 /OUT pdfmark
+[/Title( 5 The uniqueness of the cohomology of CW complexes) /Page 157 /OUT pdfmark
+[/Count -6 /Title(Chapter 20 The Poincar\'e duality theorem) /Page 159 /OUT pdfmark
+[/Title( 1 Statement of the theorem) /Page 159 /OUT pdfmark
+[/Title( 2 The definition of the cap product) /Page 161 /OUT pdfmark
+[/Title( 3 Orientations and fundamental classes) /Page 163 /OUT pdfmark
+[/Title( 4 The proof of the vanishing theorem) /Page 166 /OUT pdfmark
+[/Title( 5 The proof of the Poincar\'e duality theorem) /Page 168 /OUT pdfmark
+[/Title( 6 The orientation cover) /Page 171 /OUT pdfmark
+[/Count -5 /Title(Chapter 21 The index of manifolds; manifolds with boundary) /Page 173 /OUT pdfmark
+[/Title( 1 The Euler characteristic of compact manifolds) /Page 173 /OUT pdfmark
+[/Title( 2 The index of compact oriented manifolds) /Page 174 /OUT pdfmark
+[/Title( 3 Manifolds with boundary) /Page 176 /OUT pdfmark
+[/Title( 4 Poincar\'e duality for manifolds with boundary) /Page 177 /OUT pdfmark
+[/Title( 5 The index of manifolds that are boundaries) /Page 179 /OUT pdfmark
+[/Count -5 /Title(Chapter 22 Homology, cohomology, and $K(\pi ,n)$s) /Page 183 /OUT pdfmark
+[/Title( 1 $K(\pi ,n)$s and homology) /Page 183 /OUT pdfmark
+[/Title( 2 $K(\pi ,n)$s and cohomology) /Page 185 /OUT pdfmark
+[/Title( 3 Cup and cap products) /Page 187 /OUT pdfmark
+[/Title( 4 Postnikov systems) /Page 190 /OUT pdfmark
+[/Title( 5 Cohomology operations) /Page 192 /OUT pdfmark
+[/Count -8 /Title(Chapter 23 Characteristic classes of vector bundles) /Page 195 /OUT pdfmark
+[/Title( 1 The classification of vector bundles) /Page 195 /OUT pdfmark
+[/Title( 2 Characteristic classes for vector bundles) /Page 197 /OUT pdfmark
+[/Title( 3 Stiefel-Whitney classes of manifolds) /Page 199 /OUT pdfmark
+[/Title( 4 Characteristic numbers of manifolds) /Page 201 /OUT pdfmark
+[/Title( 5 Thom spaces and the Thom isomorphism theorem) /Page 202 /OUT pdfmark
+[/Title( 6 The construction of the Stiefel-Whitney classes) /Page 204 /OUT pdfmark
+[/Title( 7 Chern, Pontryagin, and Euler classes) /Page 205 /OUT pdfmark
+[/Title( 8 A glimpse at the general theory) /Page 208 /OUT pdfmark
+[/Count -6 /Title(Chapter 24 An introduction to $K$-theory) /Page 211 /OUT pdfmark
+[/Title( 1 The definition of $K$-theory) /Page 211 /OUT pdfmark
+[/Title( 2 The Bott periodicity theorem) /Page 214 /OUT pdfmark
+[/Title( 3 The splitting principle and the Thom isomorphism) /Page 216 /OUT pdfmark
+[/Title( 4 The Chern character; almost complex structures on spheres) /Page 219 /OUT pdfmark
+[/Title( 5 The Adams operations) /Page 221 /OUT pdfmark
+[/Title( 6 The Hopf invariant one problem and its applications) /Page 223 /OUT pdfmark
+[/Count -7 /Title(Chapter 25 An introduction to cobordism) /Page 227 /OUT pdfmark
+[/Title( 1 The cobordism groups of smooth closed manifolds) /Page 227 /OUT pdfmark
+[/Title( 2 Sketch proof that $\@scr N_*$ is isomorphic to $\pi _*(TO)$) /Page 228 /OUT pdfmark
+[/Title( 3 Prespectra and the algebra $H_*(TO;\@mathbb Z_2)$) /Page 231 /OUT pdfmark
+[/Title( 4 The Steenrod algebra and its coaction on $H_*(TO)$) /Page 234 /OUT pdfmark
+[/Title( 5 The relationship to Stiefel-Whitney numbers) /Page 236 /OUT pdfmark
+[/Title( 6 Spectra and the computation of $\pi _*(TO) =\pi _*(MO)$) /Page 238 /OUT pdfmark
+[/Title( 7 An introduction to the stable category) /Page 240 /OUT pdfmark
+[/Count -21 /Title(Chapter  Suggestions for further reading) /Page 243 /OUT pdfmark
+[/Title( 1 A classic book and historical references) /Page 243 /OUT pdfmark
+[/Title( 2 Textbooks in algebraic topology and homotopy theory) /Page 243 /OUT pdfmark
+[/Title( 3 Books on CW complexes) /Page 244 /OUT pdfmark
+[/Title( 4 Differential forms and Morse theory) /Page 244 /OUT pdfmark
+[/Title( 5 Equivariant algebraic topology) /Page 245 /OUT pdfmark
+[/Title( 6 Category theory and homological algebra) /Page 245 /OUT pdfmark
+[/Title( 7 Simplicial sets in algebraic topology) /Page 245 /OUT pdfmark
+[/Title( 8 The Serre spectral sequence and Serre class theory) /Page 245 /OUT pdfmark
+[/Title( 9 The Eilenberg-Moore spectral sequence) /Page 245 /OUT pdfmark
+[/Title( 10 Cohomology operations) /Page 246 /OUT pdfmark
+[/Title( 11 Vector bundles) /Page 246 /OUT pdfmark
+[/Title( 12 Characteristic classes) /Page 246 /OUT pdfmark
+[/Title( 13 $K$-theory) /Page 247 /OUT pdfmark
+[/Title( 14 Hopf algebras; the Steenrod algebra, Adams spectral sequence) /Page 247 /OUT pdfmark
+[/Title( 15 Cobordism) /Page 248 /OUT pdfmark
+[/Title( 16 Generalized homology theory and stable homotopy theory) /Page 248 /OUT pdfmark
+[/Title( 17 Quillen model categories) /Page 248 /OUT pdfmark
+[/Title( 18 Localization and completion; rational homotopy theory) /Page 249 /OUT pdfmark
+[/Title( 19 Infinite loop space theory) /Page 249 /OUT pdfmark
+[/Title( 20 Complex cobordism and stable homotopy theory) /Page 250 /OUT pdfmark
+[/Title( 21 Follow-ups to this book) /Page 250 /OUT pdfmark
