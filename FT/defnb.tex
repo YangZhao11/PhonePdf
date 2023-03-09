@@ -3,7 +3,7 @@
 %%So def doesn't open lines. Use \overset{\df}{=}
 \newcommand{\df}{\smash{\lower.12em\hbox{\textup{\tiny def}}}}
 
-%%remove some vertical space from fractions 
+%%remove some vertical space from fractions
 \newcommand{\myfrac}[3][0pt]{\genfrac{}{}{}{}{\raisebox{#1}{$#2$}}{\raisebox{-#1}{$#3$}}}
 
 %%Turn off blackboxes in draft.
@@ -16,7 +16,7 @@
 \usepackage{xcolor}
 \definecolor{bblue}{rgb}{0.0, 0.0, 0.7}
 
-%%fix headheight warning in Memoir 
+%%fix headheight warning in Memoir
 \setlength{\headheight}{14pt}
 
 %%This gets running heads to come out correctly (math doesn't get wrongly capitilized).
@@ -60,7 +60,7 @@
 %% To use the STIX fonts, put
 %\usepackage{stix2}
 %%in GT.tex after \documentclass and uncomment a line after tikzcd.
-%% With the stix fonts, my system gives a fatal error unless I change 
+%% With the stix fonts, my system gives a fatal error unless I change
 %% \chapter{Representations of Finite Groups} to ... finite groups.
 
 %% I use the mtpro2 fonts, but they cost money.
@@ -70,6 +70,8 @@
 
 %% To use the free version of the mtpro2 fonts, replace the last line with
 %\usepackage[lite,subscriptcorrection,slantedGreek,nofontinfo]{mtpro2}
+
+\usepackage[bitstream-charter]{mathdesign}
 
 %%%DIAGRAMS
 \usepackage{tikz}
@@ -85,9 +87,9 @@
 \renewcommand\chapnamefont{\normalfont\Large\scshape\raggedleft}
 \renewcommand\chaptitlefont{\normalfont\Huge\bfseries\sffamily\raggedleft}
 \renewcommand\chapternamenum{}
-\renewcommand\printchapternum{%
-\makebox[0pt][l]{\hspace{0.4em}%
-\resizebox{!}{4ex}{\chapnamefont\bfseries\sffamily\thechapter}}}
+%% \renewcommand\printchapternum{%
+%% \makebox[0pt][l]{\hspace{0.4em}%
+%% \resizebox{!}{4ex}{\chapnamefont\bfseries\sffamily\thechapter}}}
 \renewcommand\afterchapternum{\par\hspace{1.5cm}\hrule\vskip\midchapskip}
 }
 
@@ -132,8 +134,7 @@
 %%%PAGE SETUP. CHOOSE ONE
 
 %%This gives a text size of 5.5in x 9.2in on a4paper
-\usepackage[textwidth=5.5in,textheight=9.2in,centering,a4paper]{geometry}
+%\usepackage[textwidth=5.5in,textheight=9.2in,centering,a4paper]{geometry}
 
 %%This gives a text size of 5.5in x 9.2in with margins of 0.5in (better for viewing on screen)
-%\usepackage[papersize={6.5in,10.2in},margin=0.5in,pdftex]{geometry}
-
+\usepackage[papersize={6in,8.15in},left=0.1in,vmargin=0.1in,right=0.5in,asymmetric,pdftex]{geometry}

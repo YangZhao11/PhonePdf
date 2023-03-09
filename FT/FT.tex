@@ -1,4 +1,4 @@
-%%Version 5.0, including the source files,  is published under a 
+%%Version 5.0, including the source files,  is published under a
 %%Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International licence
 %%LaTeX file is very standard, and should work on any modern system.
 %%File encoding is ASCII
@@ -7,10 +7,10 @@
 %%as many lines end in %.
 %%Use defnb.tex to change fonts or margins.
 %%The main file GT.tex was written in Scientific Workplace 5.50.
-%%If you own SWP 5.5, you can use it to edit GT.tex; 
+%%If you own SWP 5.5, you can use it to edit GT.tex;
 %%others should ignore the %TCIDATA lines in preamble.
 
-\documentclass[a4paper,11pt,final]{memoir}
+\documentclass[a4paper,11pt,final,openany]{memoir}
 \usepackage{array}
 \usepackage{amsxtra}
 \usepackage[final]{graphicx}
@@ -75,8 +75,8 @@
 \chapterstyle{daleif2}
 
 \pagestyle{empty} \vspace*{0.5in}
-\centerline{\fontsize{40}{50}\selectfont Fields and Galois Theory}
-\vspace{1in} \centerline{\fontsize{30}{40}\selectfont J.S. Milne}
+\centerline{\fontsize{30}{40}\selectfont Fields and Galois Theory}
+\vspace{1in} \centerline{\fontsize{20}{30}\selectfont J.S. Milne}
 \vspace{2.0in}
 
 \begin{minipage}{2.5in}
@@ -110,14 +110,14 @@ Splitting field of $X^5-2$ over $\mathbb{Q}$.
 \end{minipage}
 
 
-\vspace{2in} 
+\vspace{2in}
 
 \centerline{\begin{minipage}{2.0in}\small{Version 5.00
 \newline June 2021}\end{minipage}}
 
 
 
-\raggedbottom\clearpage\pagenumbering{arabic} 
+\raggedbottom\clearpage\pagenumbering{arabic}
 
 \vspace*{0.1in} \noindent These
 notes give a concise exposition of the theory of fields, including the Galois
@@ -171,12 +171,12 @@ changed; 138 pages.
 \vfill
 
 \noindent Version 5.0 is published under a Creative Commons
-Attribution-NonCommercial-ShareAlike 4.0 International licence 
+Attribution-NonCommercial-ShareAlike 4.0 International licence
 (CC BY-NC-SA 4.0).
 
 \bigskip
 
-\noindent Licence information: 
+\noindent Licence information:
 \href{https://creativecommons.org/licenses/by-nc-sa/4.0/}{https://creativecommons.org/licenses/by-nc-sa/4.0}
 
 \bigskip
@@ -189,7 +189,7 @@ Attribution-NonCommercial-ShareAlike 4.0 International licence
 
 \section{Notation.}
 
-We use the standard (Bourbaki) notation:
+\sloppy We use the standard (Bourbaki) notation:
 \begin{align*}
 \mathbb{N}  &  =\{0,1,2,\ldots\},\\
 \mathbb{Z}  &  =\text{ring of integers,}\\
@@ -213,7 +213,8 @@ X\subset Y & X\text{ is a subset of }Y\text{ (not necessarily proper).}\\
 X\overset{\df}{=}Y & X\text{ is defined to be }Y\text{, or
 equals }Y\text{ by definition.}\\
 X\approx Y & X\text{ is isomorphic to }Y\text{.}\\
-X\simeq Y & X\text{ and }Y\text{ are canonically isomorphic (or there is a
+X\simeq Y & X\text{ and }Y\text{ are canonically isomorphic}\\
+  & \text{(or there is a
 given or unique isomorphism).}%
 \end{array}
 $
@@ -1882,7 +1883,7 @@ of algebra\textquotedblright. See: Roquette, Peter, In memoriam Ernst Steinitz
 
 \begin{exercise}
 \label{x1} Let $E={\mathbb{Q}}[\alpha]$, where $\alpha^{3}-\alpha^{2}%
-+\alpha+2=0$. Express $(\alpha^{2}+\alpha+1)(\alpha^{2}-\alpha)$ and\linebreak 
++\alpha+2=0$. Express $(\alpha^{2}+\alpha+1)(\alpha^{2}-\alpha)$ and\linebreak
 $(\alpha-1)^{-1}$ in the form $a\alpha^{2}+b\alpha+c$ with $a,b,c\in
 {\mathbb{Q}}$.
 \end{exercise}
@@ -4482,8 +4483,8 @@ that $\sigma_{T}$ leaves $\bar{f}_{1}(X,T)_{1}$ invariant. Clearly $G_{\bar
 {f}}\subset G_{f}$.
 
 \begin{aside} For a monic polynomial $f$ of degree $n$ with bounded integers
-as coefficients, it is expected that the Galois group of $f$ equals $S_n$ 
-with probability $1$ as $n\rightarrow\infty$. See 
+as coefficients, it is expected that the Galois group of $f$ equals $S_n$
+with probability $1$ as $n\rightarrow\infty$. See
 Bary-Soroker, Kozma, and Gady, Duke Math. J. 169 (2020), 579--598,
 for precise statements.
 \end{aside}
