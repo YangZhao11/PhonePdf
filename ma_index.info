@@ -1,58 +1,59 @@
+[/Title (Multilinear Algebra and Applications) /Author (Alessandra Iozzi) /DOCINFO pdfmark
 [/Page 6 /View [/XYZ null null null] /Title (1 Introduction) /OUT pdfmark
-[/Page 10 /View [/XYZ null null null] /Title (2 Review of Linear Algebra) /OUT pdfmark
+[/Count 5 /Page 10 /View [/XYZ null null null] /Title (2 Review of Linear Algebra) /OUT pdfmark
 [/Page 10 /View [/XYZ null null null] /Title (2.1 Vector Spaces and Subspaces) /OUT pdfmark
 [/Page 12 /View [/XYZ null null null] /Title (2.2 Bases) /OUT pdfmark
-[/Page 15 /View [/XYZ null null null] /Title (2.3 The Einstein convention) /OUT pdfmark
+[/Count -2 /Page 15 /View [/XYZ null null null] /Title (2.3 The Einstein convention) /OUT pdfmark
 [/Page 17 /View [/XYZ null null null] /Title (2.3.1 Change of bases, revisited) /OUT pdfmark
-[/Page 18 /View [/XYZ null null null] /Title (2.3.1 The Kronecker delta symbol) /OUT pdfmark
-[/Page 19 /View [/XYZ null null null] /Title (2.4 Linear Transformations) /OUT pdfmark
+[/Page 18 /View [/XYZ null null null] /Title (2.3.2 The Kronecker delta symbol) /OUT pdfmark
+[/Count -1 /Page 19 /View [/XYZ null null null] /Title (2.4 Linear Transformations) /OUT pdfmark
 [/Page 23 /View [/XYZ null null null] /Title (2.4.1 Similar matrices) /OUT pdfmark
 [/Page 24 /View [/XYZ null null null] /Title (2.5 Eigenbases) /OUT pdfmark
-[/Page 28 /View [/XYZ null null null] /Title (3 Multilinear Forms) /OUT pdfmark
-[/Page 28 /View [/XYZ null null null] /Title (3.1 Linear Forms) /OUT pdfmark
+[/Count 5 /Page 28 /View [/XYZ null null null] /Title (3 Multilinear Forms) /OUT pdfmark
+[/Count -2 /Page 28 /View [/XYZ null null null] /Title (3.1 Linear Forms) /OUT pdfmark
 [/Page 28 /View [/XYZ null null null] /Title (3.1.1 Definition, Examples, Dual and Dual Basis) /OUT pdfmark
 [/Page 31 /View [/XYZ null null null] /Title (3.1.2 Transformation of Linear Forms under a Change of Basis) /OUT pdfmark
-[/Page 35 /View [/XYZ null null null] /Title (3.2 Bilinear Forms) /OUT pdfmark
+[/Count -3 /Page 35 /View [/XYZ null null null] /Title (3.2 Bilinear Forms) /OUT pdfmark
 [/Page 35 /View [/XYZ null null null] /Title (3.2.1 Definition, Examples and Basis) /OUT pdfmark
 [/Page 37 /View [/XYZ null null null] /Title (3.2.2 Tensor product of two linear forms on V) /OUT pdfmark
 [/Page 38 /View [/XYZ null null null] /Title (3.2.3 Transformation of Bilinear Forms under a Change of Basis) /OUT pdfmark
 [/Page 39 /View [/XYZ null null null] /Title (3.3 Multilinear forms) /OUT pdfmark
-[/Page 40 /View [/XYZ null null null] /Title (3.4 Examples) /OUT pdfmark
+[/Count -2 /Page 40 /View [/XYZ null null null] /Title (3.4 Examples) /OUT pdfmark
 [/Page 40 /View [/XYZ null null null] /Title (3.4.1 A Bilinear Form) /OUT pdfmark
 [/Page 41 /View [/XYZ null null null] /Title (3.4.2 A Trilinear Form) /OUT pdfmark
 [/Page 42 /View [/XYZ null null null] /Title (3.5 Basic Operation on Multilinear Forms) /OUT pdfmark
-[/Page 44 /View [/XYZ null null null] /Title (4 Inner Products) /OUT pdfmark
-[/Page 44 /View [/XYZ null null null] /Title (4.1 Definitions and First Properties) /OUT pdfmark
+[/Count 2 /Page 44 /View [/XYZ null null null] /Title (4 Inner Products) /OUT pdfmark
+[/Count -2 /Page 44 /View [/XYZ null null null] /Title (4.1 Definitions and First Properties) /OUT pdfmark
 [/Page 45 /View [/XYZ null null null] /Title (4.1.1 Correspondence Between Inner Products and Symmetric Positive Definite Matrices) /OUT pdfmark
 [/Page 47 /View [/XYZ null null null] /Title (4.1.2 Orthonormal Basis) /OUT pdfmark
-[/Page 51 /View [/XYZ null null null] /Title (4.2 Reciprocal Basis) /OUT pdfmark
+[/Count -4 /Page 51 /View [/XYZ null null null] /Title (4.2 Reciprocal Basis) /OUT pdfmark
 [/Page 53 /View [/XYZ null null null] /Title (4.2.1 Properties of Reciprocal Bases) /OUT pdfmark
 [/Page 55 /View [/XYZ null null null] /Title (4.2.2 Change of basis from a basis B to its reciprocal basis Bg) /OUT pdfmark
 [/Page 57 /View [/XYZ null null null] /Title (4.2.3 Isomorphisms Between a Vector Space and its Dual) /OUT pdfmark
 [/Page 59 /View [/XYZ null null null] /Title (4.2.4 Geometric Interpretation) /OUT pdfmark
-[/Page 62 /View [/XYZ null null null] /Title (5. Tensors) /OUT pdfmark
-[/Page 62 /View [/XYZ null null null] /Title (5.1 Generalities) /OUT pdfmark
+[/Count 3 /Page 62 /View [/XYZ null null null] /Title (5. Tensors) /OUT pdfmark
+[/Count -4 /Page 62 /View [/XYZ null null null] /Title (5.1 Generalities) /OUT pdfmark
 [/Page 62 /View [/XYZ null null null] /Title (5.1.1 Canonical isomorphism between V and (V∗)∗.) /OUT pdfmark
 [/Page 63 /View [/XYZ null null null] /Title (5.1.2 Towards general tensors) /OUT pdfmark
 [/Page 64 /View [/XYZ null null null] /Title (5.1.3 Tensor product of (1,0)-tensors on V∗) /OUT pdfmark
 [/Page 65 /View [/XYZ null null null] /Title (5.1.4 Components of a (2,0)-tensor and their contravariance) /OUT pdfmark
 [/Page 66 /View [/XYZ null null null] /Title (5.2 Tensors of type (p,q)) /OUT pdfmark
 [/Page 66 /View [/XYZ null null null] /Title (5.3 Tensor product) /OUT pdfmark
-[/Page 70 /View [/XYZ null null null] /Title (6 Applications) /OUT pdfmark
-[/Page 70 /View [/XYZ null null null] /Title (6.1 Inertia tensor) /OUT pdfmark
+[/Count 5 /Page 70 /View [/XYZ null null null] /Title (6 Applications) /OUT pdfmark
+[/Count -4 /Page 70 /View [/XYZ null null null] /Title (6.1 Inertia tensor) /OUT pdfmark
 [/Page 70 /View [/XYZ null null null] /Title (6.1.1 Moment of inertia with respect to the axis determined by the angular velocity) /OUT pdfmark
 [/Page 75 /View [/XYZ null null null] /Title (6.1.2 Moment of inertia about any axis through the fixed point.) /OUT pdfmark
 [/Page 77 /View [/XYZ null null null] /Title (6.1.3 Moment of inertia with respect to an eigenbasis of the inertia tensor) /OUT pdfmark
 [/Page 78 /View [/XYZ null null null] /Title (6.1.4 Angular momentum) /OUT pdfmark
-[/Page 80 /View [/XYZ null null null] /Title (6.2 Stress tensor (Spannung)) /OUT pdfmark
+[/Count -2 /Page 80 /View [/XYZ null null null] /Title (6.2 Stress tensor (Spannung)) /OUT pdfmark
 [/Page 85 /View [/XYZ null null null] /Title (6.2.1 Special forms of the stress tensor (written with respect to an orthonormal eigenbasis or another special basis)) /OUT pdfmark
 [/Page 87 /View [/XYZ null null null] /Title (6.2.2 Contravariance of the stress tensor) /OUT pdfmark
-[/Page 88 /View [/XYZ null null null] /Title (6.3 Strain tensor (Verzerrung)) /OUT pdfmark
+[/Count -3 /Page 88 /View [/XYZ null null null] /Title (6.3 Strain tensor (Verzerrung)) /OUT pdfmark
 [/Page 89 /View [/XYZ null null null] /Title (    The antisymmetric case) /OUT pdfmark
 [/Page 90 /View [/XYZ null null null] /Title (    The symmetric case) /OUT pdfmark
 [/Page 92 /View [/XYZ null null null] /Title (6.3.1 Special forms of the strain tensor) /OUT pdfmark
 [/Page 92 /View [/XYZ null null null] /Title (6.4 Elasticity tensor) /OUT pdfmark
-[/Page 93 /View [/XYZ null null null] /Title (6.5 Conductivity tensor) /OUT pdfmark
+[/Count -2 /Page 93 /View [/XYZ null null null] /Title (6.5 Conductivity tensor) /OUT pdfmark
 [/Page 93 /View [/XYZ null null null] /Title (6.5.1 Electrical conductivity) /OUT pdfmark
 [/Page 95 /View [/XYZ null null null] /Title (6.5.2 Heat conductivity) /OUT pdfmark
 [/Page 98 /View [/XYZ null null null] /Title (7 Solutions) /OUT pdfmark

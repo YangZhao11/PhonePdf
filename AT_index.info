@@ -1,62 +1,63 @@
+[/Title (Algebraic Topology) /Author (Allen Hatcher) /DOCINFO pdfmark
 [/Page 3 /View [/XYZ null null null] /Title (Table of Contents) /OUT pdfmark
 [/Page 6 /View [/XYZ null null null] /Title (Preface) /OUT pdfmark
 [/Page 9 /View [/XYZ null null null] /Title (Standard Notations) /OUT pdfmark
-[/Page 10 /View [/XYZ null null null] /Title (Chapter 0. Some Underlying Geometric Notions) /OUT pdfmark
+[/Count -5 /Page 10 /View [/XYZ null null null] /Title (Chapter 0. Some Underlying Geometric Notions) /OUT pdfmark
 [/Page 10 /View [/XYZ null null null] /Title (   Homotopy and Homotopy Type) /OUT pdfmark
 [/Page 14 /View [/XYZ null null null] /Title (   Cell Complexes) /OUT pdfmark
 [/Page 17 /View [/XYZ null null null] /Title (   Operations on Spaces) /OUT pdfmark
 [/Page 19 /View [/XYZ null null null] /Title (   Two Criteria for Homotopy Equivalence) /OUT pdfmark
 [/Page 23 /View [/XYZ null null null] /Title (   The Homotopy Extension Property) /OUT pdfmark
-[/Page 30 /View [/XYZ null null null] /Title (Chapter 1. The Fundamental Group) /OUT pdfmark
-[/Page 34 /View [/XYZ null null null] /Title ( 1.1 Basic Constructions) /OUT pdfmark
+[/Count 4 /Page 30 /View [/XYZ null null null] /Title (Chapter 1. The Fundamental Group) /OUT pdfmark
+[/Count -3 /Page 34 /View [/XYZ null null null] /Title ( 1.1 Basic Constructions) /OUT pdfmark
 [/Page 34 /View [/XYZ null null null] /Title (   Paths and Homotopy) /OUT pdfmark
 [/Page 38 /View [/XYZ null null null] /Title (   The Fundamental Group of the Circle) /OUT pdfmark
 [/Page 43 /View [/XYZ null null null] /Title (   Induced Homomorphisms) /OUT pdfmark
-[/Page 49 /View [/XYZ null null null] /Title ( 1.2 Van Kampen's Theorem) /OUT pdfmark
+[/Count -3 /Page 49 /View [/XYZ null null null] /Title ( 1.2 Van Kampen's Theorem) /OUT pdfmark
 [/Page 50 /View [/XYZ null null null] /Title (   Free Products of Groups) /OUT pdfmark
 [/Page 52 /View [/XYZ null null null] /Title (   The van Kampen Theorem) /OUT pdfmark
 [/Page 58 /View [/XYZ null null null] /Title (   Applications to Cell Complexes) /OUT pdfmark
-[/Page 65 /View [/XYZ null null null] /Title ( 1.3 Covering Spaces) /OUT pdfmark
+[/Count -3 /Page 65 /View [/XYZ null null null] /Title ( 1.3 Covering Spaces) /OUT pdfmark
 [/Page 69 /View [/XYZ null null null] /Title (   Lifting Properties) /OUT pdfmark
 [/Page 72 /View [/XYZ null null null] /Title (   The Classification of Covering Spaces) /OUT pdfmark
 [/Page 79 /View [/XYZ null null null] /Title (   Deck Transformations and Group Actions) /OUT pdfmark
-[/Page 92 /View [/XYZ null null null] /Title ( Additional Topics) /OUT pdfmark
+[/Count -2 /Page 92 /View [/XYZ null null null] /Title ( Additional Topics) /OUT pdfmark
 [/Page 92 /View [/XYZ null null null] /Title (   1.A Graphs and Free Groups) /OUT pdfmark
 [/Page 96 /View [/XYZ null null null] /Title (   1.B K(G,1) Spaces and Graphs of Groups) /OUT pdfmark
-[/Page 106 /View [/XYZ null null null] /Title (Chapter 2 Homology) /OUT pdfmark
-[/Page 111 /View [/XYZ null null null] /Title ( 2.1 Simplicial and Singular Homology) /OUT pdfmark
+[/Count 4 /Page 106 /View [/XYZ null null null] /Title (Chapter 2 Homology) /OUT pdfmark
+[/Count -6 /Page 111 /View [/XYZ null null null] /Title ( 2.1 Simplicial and Singular Homology) /OUT pdfmark
 [/Page 111 /View [/XYZ null null null] /Title (   ∆ Complexes) /OUT pdfmark
 [/Page 113 /View [/XYZ null null null] /Title (   Simplicial Homology) /OUT pdfmark
 [/Page 117 /View [/XYZ null null null] /Title (   Singular Homology) /OUT pdfmark
 [/Page 119 /View [/XYZ null null null] /Title (   Homotopy Invariance) /OUT pdfmark
 [/Page 122 /View [/XYZ null null null] /Title (   Exact Sequences and Excision) /OUT pdfmark
 [/Page 137 /View [/XYZ null null null] /Title (   The Equivalence of Simplicial and Singular Homology) /OUT pdfmark
-[/Page 143 /View [/XYZ null null null] /Title ( 2.2 Computations and Applications) /OUT pdfmark
+[/Count -4 /Page 143 /View [/XYZ null null null] /Title ( 2.2 Computations and Applications) /OUT pdfmark
 [/Page 143 /View [/XYZ null null null] /Title (   Degree) /OUT pdfmark
 [/Page 146 /View [/XYZ null null null] /Title (   Cellular Homology) /OUT pdfmark
 [/Page 158 /View [/XYZ null null null] /Title (   Mayer-Vietoris Sequences) /OUT pdfmark
 [/Page 162 /View [/XYZ null null null] /Title (   Homology with Coefficients) /OUT pdfmark
-[/Page 169 /View [/XYZ null null null] /Title ( 2.3 The Formal Viewpoint) /OUT pdfmark
+[/Count -2 /Page 169 /View [/XYZ null null null] /Title ( 2.3 The Formal Viewpoint) /OUT pdfmark
 [/Page 169 /View [/XYZ null null null] /Title (   Axioms for Homology) /OUT pdfmark
 [/Page 171 /View [/XYZ null null null] /Title (   Categories and Functors) /OUT pdfmark
-[/Page 175 /View [/XYZ null null null] /Title ( Additional Topics) /OUT pdfmark
+[/Count -3 /Page 175 /View [/XYZ null null null] /Title ( Additional Topics) /OUT pdfmark
 [/Page 175 /View [/XYZ null null null] /Title (   2.A Homology and Fundamental Group) /OUT pdfmark
 [/Page 178 /View [/XYZ null null null] /Title (   2.B Classical Applications) /OUT pdfmark
 [/Page 186 /View [/XYZ null null null] /Title (   2.C Simplicial Approximation) /OUT pdfmark
-[/Page 194 /View [/XYZ null null null] /Title (Chapter 3 Cohomology) /OUT pdfmark
-[/Page 199 /View [/XYZ null null null] /Title ( 3.1 Cohomology Groups) /OUT pdfmark
+[/Count 4 /Page 194 /View [/XYZ null null null] /Title (Chapter 3 Cohomology) /OUT pdfmark
+[/Count -2 /Page 199 /View [/XYZ null null null] /Title ( 3.1 Cohomology Groups) /OUT pdfmark
 [/Page 199 /View [/XYZ null null null] /Title (   The Universal Coefficient Theorem) /OUT pdfmark
 [/Page 206 /View [/XYZ null null null] /Title (   Cohomology of Spaces) /OUT pdfmark
-[/Page 215 /View [/XYZ null null null] /Title ( 3.2 Cup Product) /OUT pdfmark
+[/Count -3 /Page 215 /View [/XYZ null null null] /Title ( 3.2 Cup Product) /OUT pdfmark
 [/Page 221 /View [/XYZ null null null] /Title (   The Cohomology Ring) /OUT pdfmark
 [/Page 223 /View [/XYZ null null null] /Title (   A Kunneth Formula) /OUT pdfmark
 [/Page 229 /View [/XYZ null null null] /Title (   Spaces with Polynomial Cohomology) /OUT pdfmark
-[/Page 239 /View [/XYZ null null null] /Title ( 3.3 Poincare Duality) /OUT pdfmark
+[/Count -4 /Page 239 /View [/XYZ null null null] /Title ( 3.3 Poincare Duality) /OUT pdfmark
 [/Page 242 /View [/XYZ null null null] /Title (   Orientations and Homology) /OUT pdfmark
 [/Page 248 /View [/XYZ null null null] /Title (   The Duality Theorem) /OUT pdfmark
 [/Page 258 /View [/XYZ null null null] /Title (   Connection with Cup Product) /OUT pdfmark
 [/Page 261 /View [/XYZ null null null] /Title (   Other Forms of Duality) /OUT pdfmark
-[/Page 270 /View [/XYZ null null null] /Title ( Additional Topics) /OUT pdfmark
+[/Count -8 /Page 270 /View [/XYZ null null null] /Title ( Additional Topics) /OUT pdfmark
 [/Page 270 /View [/XYZ null null null] /Title (   3.A Universal Coefficients for Homology) /OUT pdfmark
 [/Page 277 /View [/XYZ null null null] /Title (   3.B The General Kunneth Formula) /OUT pdfmark
 [/Page 290 /View [/XYZ null null null] /Title (   3.C H-Spaces and Hopf Algebras) /OUT pdfmark
@@ -65,23 +66,23 @@
 [/Page 320 /View [/XYZ null null null] /Title (   3.F Limits and Ext) /OUT pdfmark
 [/Page 330 /View [/XYZ null null null] /Title (   3.G Transfer Homomorphisms) /OUT pdfmark
 [/Page 336 /View [/XYZ null null null] /Title (   3.H Local Coefficients) /OUT pdfmark
-[/Page 346 /View [/XYZ null null null] /Title (Chapter 4 Homotopy Theory) /OUT pdfmark
-[/Page 348 /View [/XYZ null null null] /Title ( 4.1 Homotopy Groups) /OUT pdfmark
+[/Count 4 /Page 346 /View [/XYZ null null null] /Title (Chapter 4 Homotopy Theory) /OUT pdfmark
+[/Count -4 /Page 348 /View [/XYZ null null null] /Title ( 4.1 Homotopy Groups) /OUT pdfmark
 [/Page 349 /View [/XYZ null null null] /Title (   Definitions and Basic Constructions) /OUT pdfmark
 [/Page 355 /View [/XYZ null null null] /Title (   Whitehead's Theorem) /OUT pdfmark
 [/Page 357 /View [/XYZ null null null] /Title (   Cellular Approximation) /OUT pdfmark
 [/Page 361 /View [/XYZ null null null] /Title (   CW Approximation) /OUT pdfmark
-[/Page 369 /View [/XYZ null null null] /Title ( 4.2 Elementary Methods of Calculation) /OUT pdfmark
+[/Count -4 /Page 369 /View [/XYZ null null null] /Title ( 4.2 Elementary Methods of Calculation) /OUT pdfmark
 [/Page 369 /View [/XYZ null null null] /Title (   Excision for Homotopy Groups) /OUT pdfmark
 [/Page 375 /View [/XYZ null null null] /Title (   The Hurewicz Theorem) /OUT pdfmark
 [/Page 384 /View [/XYZ null null null] /Title (   Fiber Bundles) /OUT pdfmark
 [/Page 393 /View [/XYZ null null null] /Title (   Stable Homotopy Groups) /OUT pdfmark
-[/Page 402 /View [/XYZ null null null] /Title ( 4.3 Connections with Cohomology) /OUT pdfmark
+[/Count -4 /Page 402 /View [/XYZ null null null] /Title ( 4.3 Connections with Cohomology) /OUT pdfmark
 [/Page 402 /View [/XYZ null null null] /Title (   The Homotopy Construction of Cohomology) /OUT pdfmark
 [/Page 414 /View [/XYZ null null null] /Title (   Fibrations) /OUT pdfmark
 [/Page 419 /View [/XYZ null null null] /Title (   Postnikov Towers) /OUT pdfmark
 [/Page 424 /View [/XYZ null null null] /Title (   Obstruction Theory) /OUT pdfmark
-[/Page 430 /View [/XYZ null null null] /Title ( Additional Topics) /OUT pdfmark
+[/Count -12 /Page 430 /View [/XYZ null null null] /Title ( Additional Topics) /OUT pdfmark
 [/Page 430 /View [/XYZ null null null] /Title (   4.A Basepoints and Homotopy) /OUT pdfmark
 [/Page 436 /View [/XYZ null null null] /Title (   4.B The Hopf Invariant) /OUT pdfmark
 [/Page 438 /View [/XYZ null null null] /Title (   4.C Minimal Cell Structures) /OUT pdfmark
@@ -94,7 +95,7 @@
 [/Page 479 /View [/XYZ null null null] /Title (   4.J The Loopspace of a Suspension) /OUT pdfmark
 [/Page 484 /View [/XYZ null null null] /Title (   4.K The Dold-Thom Theorem) /OUT pdfmark
 [/Page 496 /View [/XYZ null null null] /Title (   4.L Steenrod Squares and Powers) /OUT pdfmark
-[/Page 528 /View [/XYZ null null null] /Title (Appendix) /OUT pdfmark
+[/Count -4 /Page 528 /View [/XYZ null null null] /Title (Appendix) /OUT pdfmark
 [/Page 528 /View [/XYZ null null null] /Title (   Topology of Cell Complexes) /OUT pdfmark
 [/Page 538 /View [/XYZ null null null] /Title (   The Compact-Open Topology) /OUT pdfmark
 [/Page 542 /View [/XYZ null null null] /Title (   The Homotopy Extension Property) /OUT pdfmark
