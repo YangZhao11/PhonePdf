@@ -1,0 +1,272 @@
+Writing Proofs
+proofs/writingtips.pdf Advice on mathematical writing
+proofs/induction.pdf Examples of proofs by induction
+proofs/binomcoeffintegral.pdf Proofs of integrality of binomial coefficients
+proofs/welldefined.pdf Well-defined functions
+
+Group Theory
+grouptheory/whygroups.pdf Why groups?
+grouptheory/sign.pdf Sign of permutations
+grouptheory/15puzzle.pdf The Fifteen puzzle (and Rubik's cube)
+grouptheory/order.pdf Order of elements
+grouptheory/cyclicgp.pdf Subgroups of cyclic groups
+grouptheory/countsubgpZpaZpb.pdf Subgroups of Z/(p^a) &times; Z/(p^b)
+grouptheory/cyclicmodp.pdf Cyclicity of (Z/(p))^&times;
+grouptheory/coset.pdf Cosets and Lagrange's theorem
+grouptheory/quotientgroups.pdf Quotient groups
+grouptheory/homomorphisms.pdf Homomorphisms
+grouptheory/isomorphisms.pdf Isomorphisms
+grouptheory/A4noindex2.pdf No subgroup of A_4 has index 2
+grouptheory/groupsorder4and6.pdf Groups of order 4 and 6
+grouptheory/group12.pdf Groups of order 12
+grouptheory/groupsp2.pdf Groups of order p^2
+grouptheory/groupsp3.pdf Groups of order p^3
+grouptheory/group16.pdf Groups of order 16
+grouptheory/genquat.pdf Generalized quaternions
+grouptheory/genset.pdf Generating sets
+grouptheory/conjclass.pdf Conjugation in a group
+grouptheory/2parametergroup.pdf A 2-parameter nonabelian group
+grouptheory/dihedral.pdf Dihedral groups I
+grouptheory/dihedral2.pdf Dihedral groups II
+grouptheory/isometrycpx.pdf Isometries of the plane and complex numbers
+grouptheory/isometryR2.pdf Isometries of the plane and linear algebra
+grouptheory/isometryRn.pdf Isometries of R^n
+grouptheory/SL_2_R_.pdf SL2(R)
+grouptheory/SL_2_Z_.pdf SL2(Z)
+grouptheory/cauchypf.pdf Proof of Cauchy's theorem
+grouptheory/cauchyapp.pdf Consequences of Cauchy's theorem
+grouptheory/finite-abelian.pdf Decomposition of finite abelian groups
+grouptheory/gpaction.pdf Group actions
+grouptheory/transitive.pdf Transitive group actions
+grouptheory/sylowpf.pdf The Sylow theorems
+grouptheory/sylowapp.pdf Consequences of Sylow theorems
+grouptheory/sylowmore.pdf More on the Sylow theorems
+grouptheory/allgrouporderncyclic.pdf When are all groups of order n cyclic?
+grouptheory/Ansimple.pdf Simplicity of A_n
+grouptheory/PSLnsimple.pdf Simplicity of PSL_n(F)
+grouptheory/charthy.pdf Characters of finite abelian groups
+grouptheory/charthyshort.pdf Characters of finite abelian groups (short version)
+grouptheory/semidirect-product.pdf Semidirect Products
+grouptheory/subgpseries1.pdf Subgroup series I
+grouptheory/subgpseries2.pdf Subgroup series II
+grouptheory/splittinggp.pdf Splitting of short exact sequences for groups
+grouptheory/schurzass.pdf Schur-Zassenhaus theorem
+grouptheory/relativity.pdf Relativistic addition and group theory
+grouptheory/CstarqZ.pdf Escher's Print Gallery
+grouptheory/maschke.pdf Maschke's theorem over general fields
+grouptheory/affineheisrep.pdf Representations of affine and Heisenberg group over finite fields
+grouptheory/irrepdeg.pdf The degree may not divide the size of the group
+grouptheory/wordproblem.pdf Why word problems are hard
+
+Ring Theory
+ringtheory/divthm.pdf Division theorem in Z and R[T]
+ringtheory/countroots.pdf Counting roots of polynomials
+ringtheory/ringdefs.pdf Standard definitions for rings
+ringtheory/ideals.pdf Notes on ideals
+ringtheory/irredtestsoverQ.pdf Irreducibility tests in Q[T]
+ringtheory/reducibleallp.pdf An irreducible that factors modulo all primes
+ringtheory/irredselmerpoly.pdf Irreducibility of x^n - x - 1
+ringtheory/gaussnormlemma.pdf The Gauss norm and Gauss's lemma
+ringtheory/euclideanrk.pdf Remarks about Euclidean domains
+ringtheory/noetherian-ring.pdf Noetherian rings
+galoistheory/symmfunction.pdf Symmetric polynomials
+ringtheory/ufdapp.pdf Applications of unique factorization
+ringtheory/polynomial-properties.pdf Nilpotents, units, and zero divisors for polynomials
+ringtheory/maxideal-polyring.pdf Maximal ideals in polynomial rings
+ringtheory/primvector.pdf Primitive vectors and SL_n
+zorn1.pdf Zorn's lemma (in group theory, ring theory, and linear algebra)
+ringtheory/algebras.pdf Algebras
+ringtheory/quaternionalg.pdf Quaternion algebras
+
+Linear/Multilinear algebra
+linmultialg/dimension.pdf Dimension
+linmultialg/minpolyandappns.pdf Minimal polynomial
+linmultialg/simulcomm.pdf Simultaneous commutativity of operators
+linmultialg/potdiagonalizable.pdf Potentially diagonalizable operators
+linmultialg/semisimple.pdf Semisimple operators
+linmultialg/diffeqdim.pdf Differential equations and linear algebra
+linmultialg/linearrecursion.pdf Linear recursions over all fields
+linmultialg/matrixnorm.pdf The norm of a matrix
+linmultialg/descentPythag.pdf Pythagorean descent
+linmultialg/pfister.pdf Pfister's theorem on sums of squares
+linmultialg/hurwitzlinear.pdf Hurwitz's theorem on sums of squares (by linear algebra)
+linmultialg/hurwitzrepnthy.pdf Hurwitz's theorem on sums of squares (by representation theory)
+linmultialg/sumsquareQF_T_.pdf Sums of squares in Q and F(T)
+linmultialg/moduleintro.pdf Introduction to modules
+linmultialg/modulesoverPID.pdf Modules over a PID
+linmultialg/alignedbases.pdf Simultaneously aligned bases
+linmultialg/stablyfree.pdf Stably free modules
+linmultialg/noetherianmod.pdf Noetherian modules
+linmultialg/dualmod.pdf Dual modules
+linmultialg/dualspaceinfinite.pdf Infinite-dimensional dual spaces
+linmultialg/bilinearform.pdf Bilinear forms
+linmultialg/univid.pdf Universal identities I
+linmultialg/univid2.pdf Universal identities II
+linmultialg/splittingmodules.pdf Splitting of short exact sequences for modules
+linmultialg/complexification.pdf Complexification
+linmultialg/tensorprod.pdf Tensor products I
+linmultialg/tensorprod2.pdf Tensor products II
+linmultialg/extmod.pdf Exterior powers
+linmultialg/extmodbaseextn.pdf Base extension and exterior powers
+
+Fields and Galois theory
+galoistheory/rootirred.pdf Roots and irreducible polynomials
+galoistheory/numbersoncircle.pdf Roots on a circle
+galoistheory/simpleradical.pdf Simple radical extensions
+galoistheory/finitefields.pdf Finite fields
+galoistheory/tracenorm.pdf Trace and norm, I
+galoistheory/tracenorm2.pdf Trace and norm, II
+galoistheory/separable1.pdf Separable extensions
+galoistheory/perfect.pdf Perfect fields
+galoistheory/algclosure.pdf Constructing algebraic closures, I
+galoistheory/algclosureshorter.pdf Constructing algebraic closures, II
+zorn2.pdf Zorn's lemma
+galoistheory/splittingfields.pdf Splitting fields
+galoistheory/separable2.pdf Separable extensions and tensor products
+galoistheory/splittingisom.pdf Splitting fields and tensor products
+galoistheory/galoiscorr.pdf Galois correspondence
+galoistheory/galoiscorrexamples.pdf Examples of Galois correspondence
+galoistheory/galoisappn.pdf Applications of Galois theory
+galoistheory/galoisaspermgp.pdf Galois groups as permutation groups
+galoistheory/galoiscorrthms.pdf Galois correspondence theorems
+galoistheory/cubicquartic.pdf Galois groups of cubics and quartics (not char. 2)
+galoistheory/cubicquarticallchar.pdf Galois groups of cubics and quartics (all characteristics)
+galoistheory/cyclotomic.pdf Cyclotomic extensions
+galoistheory/galoisSnAn.pdf Recognizing Galois groups S_n and A_n
+galoistheory/linearchar.pdf Linear independence of characters
+galoistheory/artinschreier.pdf Artin-Schreier theorem
+galoistheory/galoisdescent.pdf Galois descent
+
+Elementary number theory
+ugradnumthy/divthmZF[T].pdf The division theorem in Z and F[T]
+ugradnumthy/divgcd.pdf Divisibility and greatest common divisor
+ugradnumthy/divnobezout.pdf Divisibility without Bezout's identity
+ugradnumthy/modarith.pdf Modular arithmetic
+ugradnumthy/modarithshort.pdf Modular arithmetic (short version)
+ugradnumthy/uniquefactnZF[T].pdf Unique factorization in Z and F[T]
+ugradnumthy/analogypoly.pdf Analogies between Z and F[T]
+ugradnumthy/universaldivtest.pdf Universal divisibility test
+ugradnumthy/heuristics.pdf Heuristics for prime statistics
+ugradnumthy/pythagtriple.pdf Pythagorean triples
+ugradnumthy/fermatlittletheorem.pdf Fermat's little theorem
+ugradnumthy/fermattest.pdf Fermat's test
+ugradnumthy/eulerthm.pdf Euler's theorem
+ugradnumthy/ordersmodm.pdf Orders in modular arithmetic
+ugradnumthy/RSAnotes.pdf Number theory and cryptography
+ugradnumthy/crt.pdf Chinese remainder theorem
+ugradnumthy/carmichaelkorselt.pdf Carmichael numbers and Korselt's criterion
+ugradnumthy/minus1squaremodp.pdf When is -1 a square modulo primes?
+ugradnumthy/infinitudeofprimes.pdf The infinitude of the primes
+ugradnumthy/prime-patterns-1.pdf Patterns in primes
+ugradnumthy/squaresandinfmanyprimes.pdf Square patterns and infinitely many primes
+ugradnumthy/primestopology.pdf The topological proof of the infinitude of primes
+ugradnumthy/solovaystrassen.pdf Solovay-Strassen test
+ugradnumthy/millerrabin.pdf Miller-Rabin test
+ugradnumthy/irredtestFpT.pdf Irreducibility tests in F_p[T]
+ugradnumthy/pelleqn1.pdf Pell's equation, I
+ugradnumthy/pelleqn2.pdf Pell's equation, II
+ugradnumthy/contfrac-neg-invert.pdf Negation and inversion of continued fractions
+ugradnumthy/Zinotes.pdf Gaussian integers
+ugradnumthy/quadraticundergrad.pdf Factoring in quadratic fields
+ugradnumthy/Picksumofsq.pdf Sums of two squares and lattices
+ugradnumthy/descent.pdf Proofs by descent
+ugradnumthy/descentbyeuler.pdf An example of descent by Euler
+ugradnumthy/congnumber.pdf Congruent number problem
+ugradnumthy/3squarearithprog.pdf Arithmetic progressions of three squares
+ugradnumthy/4squarearithprog.pdf Arithmetic progressions of four squares
+ugradnumthy/QuadraticResiduePatterns.pdf Quadratic residue patterns modulo a prime
+ugradnumthy/QRcharp.pdf Quadratic reciprocity in odd characteristic
+ugradnumthy/QRchar2.pdf Quadratic reciprocity in characteristic 2
+
+Algebraic number theory
+gradnumthy/mordelleqn1.pdf Examples of Mordell's equation
+gradnumthy/quadraticgrad.pdf Factoring in quadratic fields
+gradnumthy/idealfactor.pdf Unique factorization of ideals
+gradnumthy/dedekindf.pdf Factoring ideals after Dedekind
+gradnumthy/dedekind-index-thm.pdf Dedekind's index theorem
+gradnumthy/disc.pdf Discriminants and ramified primes
+gradnumthy/totram.pdf Totally ramified primes and Eisenstein polynomials
+gradnumthy/nopowerbasis.pdf Rings of integers without a power basis
+gradnumthy/integersradical.pdf The ring of integers in a radical extension
+gradnumthy/notfree.pdf A non-free relative integral extension
+gradnumthy/classgroupKronecker.pdf Ideal classes and Kronecker bound
+gradnumthy/classgpex.pdf Class group calculations by Minkowski bound
+gradnumthy/relativeintandidealclasses.pdf Ideal classes and relative integers
+gradnumthy/SL2classno.pdf Ideal classes and SL_2
+gradnumthy/matrixconj.pdf Ideal classes and matrix conjugation over Z
+gradnumthy/unittheorem.pdf Dirichlet's unit theorem
+gradnumthy/chevalleyunit.pdf Chevalley's unit theorem
+gradnumthy/frobeniuspf.pdf Existence of Frobenius elements (d'apr&egrave;s Frobenius)
+gradnumthy/galois-Q-factor-mod-p.pdf Galois groups over Q and factorizations mod p
+gradnumthy/chebappn.pdf Primes of degree 1 and congruence conditions
+gradnumthy/dirichleteuclid.pdf Euclidean proofs of Dirichlet's theorem
+gradnumthy/schurtheorem.pdf Irreducibility of truncated exponentials
+gradnumthy/galoisselmerpoly.pdf The Galois group of x^n - x - 1 over Q
+gradnumthy/different.pdf The different ideal
+gradnumthy/conductor.pdf The conductor ideal of an order
+gradnumthy/Gauss-Jacobi-sums.pdf Gauss and Jacobi sums on finite fields and Z/mZ
+gradnumthy/LfunctionGaussJacobi.pdf L-functions for Gauss and Jacobi sums
+gradnumthy/Qw2.pdf Invariants of the splitting field of a cubic, I
+gradnumthy/Qw3.pdf Invariants of the splitting field of a cubic, II
+gradnumthy/Qw5.pdf Invariants of the splitting field of a cubic, III
+gradnumthy/Qw6.pdf Invariants of the splitting field of a cubic, IV
+gradnumthy/Qw7.pdf Invariants of the splitting field of a cubic, V
+gradnumthy/ostrowskiQ.pdf Ostrowski's theorem for Q
+gradnumthy/ostrowskiQ_i_.pdf Ostrowski's theorem for Q(i)
+gradnumthy/ostrowskiF_T_.pdf Ostrowski's theorem for F(T)
+gradnumthy/ostrowskinumbfield.pdf Ostrowski's theorem for number fields
+gradnumthy/rationalsinQp.pdf The p-adic expansion of rational numbers
+gradnumthy/binomialcoeffpadic.pdf Binomial coefficients and p-adic limits
+gradnumthy/padicharmonicsum.pdf p-adic harmonic sums
+gradnumthy/hensel.pdf Hensel's lemma
+gradnumthy/multivarhensel.pdf A multivariable Hensel's lemma
+gradnumthy/equivabsvalues.pdf Equivalence of absolute values
+gradnumthy/equivnorms.pdf Equivalence of norms
+gradnumthy/localglobal.pdf The local-global principle
+gradnumthy/primepowerunitsandGLnQ.pdf Prime-power units and finite subgroups of GL_n(Q)
+gradnumthy/characterQ.pdf The character group of Q
+gradnumthy/autRandQp.pdf Field automorphisms of R and Q_p
+gradnumthy/infseriespadic.pdf Infinite series in p-adic fields
+gradnumthy/mahlerexpansions.pdf Mahler expansions
+gradnumthy/strassmannapplication.pdf An application of Strassmann's theorem
+gradnumthy/x3-2y3=1.pdf Integral solutions of x^3 - 2y^3 = 1.
+gradnumthy/AHrootofunity.pdf Truncated Artin-Hasse series and roots of unity
+gradnumthy/maxcompact.pdf Maximal compact subgroups of GL_n(Q_p)
+gradnumthy/GLnQpbar.pdf Compact subgroups of GL_n(<span style=text-decoration: overline>Q</span>_p)
+gradnumthy/sepfield-and-insep-resfield.pdf A separable extension with inseparable residue field
+gradnumthy/loccptascoli.pdf Local compactness of Pontryagin dual group
+gradnumthy/selmerexample.pdf Selmer's example
+gradnumthy/kummer.pdf Kummer's lemma
+gradnumthy/fltreg.pdf Fermat's last theorem for regular primes
+gradnumthy/carlitz.pdf Carlitz extensions
+gradnumthy/cfthistory.pdf History of class field theory
+
+Analysis
+analysis/growth.pdf Orders of growth
+analysis/sumest.pdf Estimating growth of divergent series
+analysis/asymp.pdf Asymptotic growth
+analysis/stirling.pdf Stirling's formula
+analysis/gaussianintegral.pdf The Gaussian integral
+analysis/diffunderint.pdf Differentiation under the integral sign
+analysis/series.pdf Infinite series
+analysis/logarctan.pdf The logarithm and arctangent
+analysis/TaylorRemainder.pdf The remainder in Taylor series
+analysis/abelthm.pdf Abel's theorem
+analysis/series_acceleration.pdf Accelerating convergence of series
+analysis/arclengthIntbypartsPi.pdf Arc length, integration by parts, and pi
+analysis/irrational.pdf Irrationality of pi; and e
+analysis/entropypost.pdf Probability distributions and maximum entropy
+analysis/metricspaces.pdf Metric spaces
+analysis/contraction.pdf The contraction mapping theorem
+analysis/contraction2.pdf The contraction mapping theorem, II
+analysis/sequencespaceto0.pdf The space c_0(K)
+analysis/lpspace.pdf L^p spaces for 0 <  p < 1
+
+Fundamental Theorem of Algebra
+fundthmalg/fundthmalgcalculus.pdf Proof by multivariable calculus
+fundthmalg/fundthmalglinear.pdf Proof by linear algebra
+fundthmalg/propermaps.pdf Proof by proper maps
+
+Topology
+topology/connnotpathconn.pdf Spaces that are connected but not path connected
+topology/finite-dim-TVS.pdf Finite-dimensional topological vector spaces
