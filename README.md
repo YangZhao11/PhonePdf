@@ -1,9 +1,13 @@
 # Math Books
 
+This repo includes some info on cropping / formatting math PDF books
+for reading on Phone / ebook reader type of devices.
+
 ## Milne's Course Notes PDF for Phone
 
-This repo contains 2 course notes from
-https://www.jmilne.org/math/CourseNotes/, formatted for phone screens.
+The author of Group theory and field and Galois theory book (course notes) from
+https://www.jmilne.org/math/CourseNotes/ has published the tex files,
+so I made some formatting change and generated PDFs for Phones and Kindle.
 All the credit and goes to the original author. I might have
 introduced formatting problems, so please check the official PDF if
 you encounter one.
@@ -45,7 +49,9 @@ gs -sDEVICE=pdfwrite -q -dBATCH -dNOPAUSE \
   -f CurveBook.pdf
 ```
 
-## Bounding Boxes
+## Tools
+
+### podofo
 podofobox can be used to modify the bounding box of a PDF file. It
 works nicely to crop out the margins of some files, so you can have
 larger text on an e-reader or tablet device. Something like this would
@@ -56,3 +62,10 @@ podofobox original.pdf crop.pdf media 5000 5300 34000 58000
 ```
 Unfortunately podofobox does not support different bounding box for
 even and odd pages separately.
+
+### pdfcpu
+A similar command line to add media bounding box:
+
+```
+pdfcpu boxes add -- "media:[50 53 390 633]" original.pdf crop.pdf
+```
