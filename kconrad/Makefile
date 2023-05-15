@@ -350,7 +350,7 @@ kconrad_%.pdf: bookmark_%.info concat_%.pdf
 	gs -sDEVICE=pdfwrite -q -dBATCH -dNOPAUSE -sOutputFile=$@ $^
 
 %-crop.pdf: %.pdf
-	podofobox $< $@ media 10500 7000 46000 65000
+	podofobox $< $@ media 10500 7000 46500 65000
 
 .PHONY: all
 
